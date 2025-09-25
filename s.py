@@ -412,3 +412,4 @@ if __name__ == "__main__":
     asyncio.run(scrape_and_save())
     print("\n✅ Scraping complete!")
     print("📁 Check the generated .txt files for results")
+    
