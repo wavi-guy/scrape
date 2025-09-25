@@ -1,46 +1,66 @@
 import asyncio
 from playwright.async_api import async_playwright
 
-async def scrape_with_headers():
+async def scrape_headless_stealth():
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)  # Try non-headless first
+        browser = await p.chromium.launch(
+            headless=True,  # Keep headless
+            args=[
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-accelerated-2d-canvas',
+                '--no-first-run',
+                '--no-zygote',
+                '--disable-gpu',
+                '--disable-background-timer-throttling',
+                '--disable-backgrounding-occluded-windows',
+                '--disable-renderer-backgrounding'
+            ]
+        )
+        
         context = await browser.new_context(
-            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            user_agent='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            viewport={'width': 1920, 'height': 1080},
             extra_http_headers={
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.5',
+                'Accept-Language': 'en-US,en;q=0.9',
                 'Accept-Encoding': 'gzip, deflate, br',
-                'DNT': '1',
                 'Connection': 'keep-alive',
                 'Upgrade-Insecure-Requests': '1',
+                'Sec-Fetch-Dest': 'document',
+                'Sec-Fetch-Mode': 'navigate',
+                'Sec-Fetch-Site': 'none',
+                'Cache-Control': 'max-age=0'
             }
         )
         
         page = await context.new_page()
         
         try:
-            print("Loading page with browser headers...")
-            await page.goto("https://www.cryptocraft.com/", wait_until='networkidle', timeout=30000)
+            print("Attempting to access site with stealth headers...")
+            await page.goto("https://www.cryptocraft.com/", wait_until='domcontentloaded', timeout=60000)
             
-            # Wait longer for Cloudflare check
-            print("Waiting for Cloudflare verification...")
-            await page.wait_for_timeout(10000)  # Wait 10 seconds
+            # Wait for potential Cloudflare check
+            await page.wait_for_timeout(8000)
             
-            # Check if we're past the verification
+            # Check page title
             title = await page.title()
             print(f"Page title: {title}")
             
-            if "verifying" in title.lower() or "checking" in title.lower():
-                print("Still in verification, waiting longer...")
-                await page.wait_for_timeout(15000)  # Wait another 15 seconds
-            
-            # Now try to get content
+            # Try to get content
             content = await page.text_content('body')
-            print(content[:500] + "..." if len(content) > 500 else content)
             
+            if "verifying" in content.lower():
+                print("Still stuck on verification page")
+                print("First 200 chars:", content[:200])
+            else:
+                print("Success! Got content:")
+                print(content[:500] + "..." if len(content) > 500 else content)
+                
         except Exception as e:
             print(f"Error: {e}")
         finally:
             await browser.close()
 
-asyncio.run(scrape_with_headers())
+asyncio.run(scrape_headless_stealth())
