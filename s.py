@@ -54,17 +54,78 @@ async def scrape_and_save():
             title = await page.title()
             print(f"Page title: {title}")
             
-            # Get text content using a simpler approach
-            content = await page.text_content('body')
+            # Get text content using multiple methods
+            print("Extracting content...")
+            
+            # Method 1: Try to get visible text content only
+            content = await page.evaluate('''
+                () => {
+                    // Remove script tags, style tags, and hidden elements
+                    document.querySelectorAll('script, style, noscript, [style*="display:none"], [style*="display: none"]').forEach(el => el.remove());
+                    
+                    // Get only visible text
+                    const walker = document.createTreeWalker(
+                        document.body,
+                        NodeFilter.SHOW_TEXT,
+                        {
+                            acceptNode: function(node) {
+                                // Skip if parent is hidden
+                                const parent = node.parentElement;
+                                if (!parent) return NodeFilter.FILTER_REJECT;
+                                
+                                const style = window.getComputedStyle(parent);
+                                if (style.display === 'none' || style.visibility === 'hidden') {
+                                    return NodeFilter.FILTER_REJECT;
+                                }
+                                
+                                // Skip empty or whitespace-only text
+                                const text = node.textContent.trim();
+                                if (text.length === 0) return NodeFilter.FILTER_REJECT;
+                                
+                                return NodeFilter.FILTER_ACCEPT;
+                            }
+                        }
+                    );
+                    
+                    let text = '';
+                    let node;
+                    while (node = walker.nextNode()) {
+                        text += node.textContent + ' ';
+                    }
+                    
+                    return text.trim();
+                }
+            ''')
+            
+            # If the above didn't work well, try a simpler approach
+            if not content or len(content) < 50:
+                print("Trying alternative text extraction...")
+                content = await page.text_content('body')
             
             if content:
-                # Clean up the content in Python instead of JavaScript
+                # Clean up the content in Python
                 import re
-                content = re.sub(r'\s+', ' ', content)  # Replace multiple whitespace with single space
-                content = re.sub(r'\n\s*\n', '\n', content)  # Remove multiple empty lines
+                
+                # Remove JavaScript code patterns
+                content = re.sub(r'window\.\w+\s*=\s*\{[^}]*\}', '', content)
+                content = re.sub(r'if\s*\([^)]*\)\s*\{[^}]*\}', '', content)
+                content = re.sub(r'\{[^}]*"[^"]*"[^}]*\}', '', content)
+                
+                # Remove JSON-like structures
+                content = re.sub(r'\{[^}]*:[^}]*\}', '', content)
+                content = re.sub(r'\[[^\]]*\]', '', content)
+                
+                # Remove HTML entities and artifacts
+                content = re.sub(r'&[a-zA-Z]+;', '', content)
+                content = re.sub(r'\\/', '/', content)
+                content = re.sub(r'\\"', '"', content)
+                
+                # Clean up whitespace
+                content = re.sub(r'\s+', ' ', content)
+                content = re.sub(r'\n\s*\n', '\n', content)
                 content = content.strip()
             else:
-                content = "No content found"
+                content = "No readable content found"
             
             print(f"Content length: {len(content)} characters")
             
@@ -156,3 +217,4 @@ if __name__ == "__main__":
     asyncio.run(scrape_and_save())
     print("\n✅ Scraping complete!")
     print("📁 Check the generated .txt files for results")
+    
