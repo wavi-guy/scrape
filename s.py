@@ -54,23 +54,17 @@ async def scrape_and_save():
             title = await page.title()
             print(f"Page title: {title}")
             
-            # Get text content
-            content = await page.evaluate('''
-                () => {
-                    // Remove script, style, and other non-content elements
-                    const elementsToRemove = document.querySelectorAll('script, style, noscript, iframe, nav, header, footer');
-                    elementsToRemove.forEach(el => el.remove());
-                    
-                    // Get clean text content
-                    const text = document.body.textContent || document.body.innerText || '';
-                    
-                    // Clean up whitespace
-                    return text
-                        .replace(/\s+/g, ' ')  // Replace multiple spaces/newlines with single space
-                        .replace(/\n\s*\n/g, '\n')  // Remove multiple empty lines
-                        .trim();
-                }
-            ''')
+            # Get text content using a simpler approach
+            content = await page.text_content('body')
+            
+            if content:
+                # Clean up the content in Python instead of JavaScript
+                import re
+                content = re.sub(r'\s+', ' ', content)  # Replace multiple whitespace with single space
+                content = re.sub(r'\n\s*\n', '\n', content)  # Remove multiple empty lines
+                content = content.strip()
+            else:
+                content = "No content found"
             
             print(f"Content length: {len(content)} characters")
             
