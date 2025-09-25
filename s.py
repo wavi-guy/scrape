@@ -1,12 +1,12 @@
 import asyncio
 from playwright.async_api import async_playwright
 from datetime import datetime
-import os
+import re
 
 async def scrape_and_save():
     async with async_playwright() as p:
         browser = await p.chromium.launch(
-            headless=True,  # Keep headless
+            headless=True,
             args=[
                 '--no-sandbox',
                 '--disable-setuid-sandbox',
@@ -46,369 +46,144 @@ async def scrape_and_save():
             
             await page.goto(url, wait_until='domcontentloaded', timeout=60000)
             
-            # Wait for potential Cloudflare check
             print("Waiting for page to load completely...")
             await page.wait_for_timeout(8000)
             
-            # Check page title
             title = await page.title()
             print(f"Page title: {title}")
             
-            # Get text content with structured line breaks
-            print("Extracting content with structured formatting...")
+            # Extract content with proper line breaks
+            print("Extracting and formatting content...")
             
             content = await page.evaluate('''
                 () => {
-                    // Remove script tags, style tags, and hidden elements
-                    document.querySelectorAll('script, style, noscript, [style*="display:none"], [style*="display: none"]').forEach(el => el.remove());
+                    // Remove scripts, styles, and hidden elements
+                    document.querySelectorAll('script, style, noscript').forEach(el => el.remove());
                     
-                    // Add line breaks for structural elements
-                    const blockElements = document.querySelectorAll('div, p, tr, td, th, li, h1, h2, h3, h4, h5, h6, section, article, header, footer, nav');
-                    blockElements.forEach(el => {
-                        // Add newline before the element
-                        const textNode = document.createTextNode('\\n');
-                        if (el.parentNode) {
-                            el.parentNode.insertBefore(textNode, el);
-                        }
-                    });
+                    // Get all text content
+                    let text = document.body.textContent || document.body.innerText || '';
                     
-                    // Special handling for table rows
-                    document.querySelectorAll('tr').forEach(tr => {
-                        const cells = tr.querySelectorAll('td, th');
-                        cells.forEach((cell, index) => {
-                            if (index > 0) {
-                                // Add tab separator between cells
-                                const tabNode = document.createTextNode('\\t');
-                                cell.parentNode.insertBefore(tabNode, cell);
-                            }
-                        });
-                        // Add double newline after each row
-                        const newlineNode = document.createTextNode('\\n\\n');
-                        if (tr.parentNode) {
-                            tr.parentNode.insertBefore(newlineNode, tr.nextSibling);
-                        }
-                    });
-                    
-                    // Get the text content
-                    return document.body.textContent || document.body.innerText || '';
+                    return text;
                 }
             ''')
             
-            if content:
-                # Clean up the content in Python
-                import re
+            if not content or len(content) < 100:
+                print("Minimal content found, might be stuck on verification")
                 
-                # Remove JavaScript code patterns
-                content = re.sub(r'window\.\w+\s*=\s*\{.*?\}', '', content, flags=re.DOTALL)
-                content = re.sub(r'if\s*\([^)]*\)\s*\{.*?\}', '', content, flags=re.DOTALL)
-                content = re.sub(r'\{[^}]*"[^"]*"[^}]*\}', '', content)
-                
-                # Remove JSON-like structures
-                content = re.sub(r'\{[^}]*:[^}]*\}', '', content)
-                content = re.sub(r'\[[^\]]*\]', '', content)
-                
-                # Remove HTML entities and artifacts
-                content = re.sub(r'&[a-zA-Z0-9#]+;', ' ', content)
-                content = re.sub(r'\\/', '/', content)
-                content = re.sub(r'\\"', '"', content)
-                content = re.sub(r'\\n', '\n', content)
-                content = re.sub(r'\\t', '\t', content)
-                
-                # Clean up excessive whitespace but preserve line structure
-                content = re.sub(r'[ ]+', ' ', content)  # Multiple spaces to single space
-                content = re.sub(r'\n[ \t]*\n', '\n\n', content)  # Clean empty lines
-                content = re.sub(r'\n{3,}', '\n\n', content)  # Max 2 consecutive newlines
-                
-                # Remove lines that are just JavaScript remnants
-                lines = content.split('\n')
-                cleaned_lines = []
-                for line in lines:
-                    line = line.strip()
-                    # Skip lines that look like JavaScript/JSON
-                    if (line and 
-                        not re.match(r'^[\{\}\[\],:"\\]*
+            # Clean up the content in Python
+            print("Cleaning up content...")
+            
+            # Remove JavaScript patterns
+            content = re.sub(r'window\.\w+\s*=\s*\{[^}]*\}', '', content)
+            content = re.sub(r'if\s*\([^)]*\)\s*\{[^}]*\}', '', content)
+            
+            # Remove JSON-like patterns
+            content = re.sub(r'\{[^}]*"[^"]*"[^}]*\}', '', content)
+            content = re.sub(r'\[[^\]]*\]', '', content)
+            
+            # Clean whitespace
+            content = re.sub(r'\s+', ' ', content)
+            content = content.strip()
+            
+            # Filter out JavaScript lines
+            lines = content.split()
+            cleaned_words = []
+            
+            for word in lines:
+                word = word.strip()
+                if word and len(word) > 1:
+                    # Skip obvious JavaScript keywords and patterns
+                    skip_word = False
+                    js_patterns = ['window.', 'function', 'calendarComponentStates', 
+                                 'true', 'false', 'null']
+                    
+                    for pattern in js_patterns:
+                        if pattern in word:
+                            skip_word = True
+                            break
+                    
+                    # Skip words that are mostly punctuation
+                    if not skip_word and not re.match(r'^[{}[\],:"\\]*$', word):
+                        cleaned_words.append(word)
+            
+            # Rejoin words with spaces and create logical line breaks
+            content = ' '.join(cleaned_words)
             
             print(f"Content length: {len(content)} characters")
             
-            if "verifying" in content.lower() or len(content) < 100:
-                print("❌ Still stuck on verification page or minimal content")
-                print("First 200 chars:", content[:200])
-                
-                # Save the verification page content too for debugging
+            if len(content) < 50:
+                print("Very minimal content - possibly verification page")
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                debug_filename = f"verification_page_{timestamp}.txt"
+                debug_filename = f"verification_debug_{timestamp}.txt"
                 
                 with open(debug_filename, 'w', encoding='utf-8') as f:
-                    f.write(f"Verification page content from: {url}\n")
-                    f.write(f"Scraped on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write("="*60 + "\n\n")
+                    f.write(f"Debug content from: {url}\n")
+                    f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    f.write("=" * 50 + "\n\n")
                     f.write(content)
                 
-                print(f"🔍 Debug content saved to: {debug_filename}")
+                print(f"Debug content saved to: {debug_filename}")
                 
             else:
-                print("✅ Successfully retrieved content!")
-                print("Preview (first 300 chars):")
+                print("Content successfully extracted!")
+                print("Preview (first 300 characters):")
                 print("-" * 50)
                 print(content[:300] + "..." if len(content) > 300 else content)
                 print("-" * 50)
                 
-                # Create filename with timestamp
+                # Save to file
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                filename = f"cryptocraft_content_{timestamp}.txt"
+                filename = f"cryptocraft_clean_{timestamp}.txt"
                 
-                # Write content to file
                 with open(filename, 'w', encoding='utf-8') as f:
                     f.write(f"Website: {url}\n")
-                    f.write(f"Page Title: {title}\n")
-                    f.write(f"Scraped on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"Content length: {len(content)} characters\n")
-                    f.write("="*60 + "\n\n")
+                    f.write(f"Title: {title}\n")
+                    f.write(f"Scraped: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    f.write(f"Length: {len(content)} characters\n")
+                    f.write("=" * 60 + "\n\n")
                     f.write(content)
                 
-                print(f"💾 Content saved to: {filename}")
+                print(f"Content saved to: {filename}")
                 
-                # Also create a summary file with key statistics
-                summary_filename = f"cryptocraft_summary_{timestamp}.txt"
-                
-                # Extract some basic stats
+                # Create summary
                 word_count = len(content.split())
-                line_count = len(content.split('\n'))
+                summary_filename = f"summary_{timestamp}.txt"
                 
                 with open(summary_filename, 'w', encoding='utf-8') as f:
-                    f.write(f"SCRAPING SUMMARY\n")
+                    f.write("SCRAPING SUMMARY\n")
                     f.write(f"Website: {url}\n")
                     f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"Page Title: {title}\n")
-                    f.write(f"Character count: {len(content):,}\n")
-                    f.write(f"Word count: {word_count:,}\n")
-                    f.write(f"Line count: {line_count:,}\n")
-                    f.write(f"Main content file: {filename}\n")
-                    f.write("="*60 + "\n\n")
-                    f.write("PREVIEW (first 500 characters):\n")
+                    f.write(f"Characters: {len(content):,}\n")
+                    f.write(f"Words: {word_count:,}\n")
+                    f.write(f"Content file: {filename}\n")
+                    f.write("=" * 40 + "\n\n")
+                    f.write("PREVIEW:\n")
                     f.write(content[:500])
                     if len(content) > 500:
-                        f.write("\n\n... (truncated, see main file for full content)")
+                        f.write("\n...(truncated)")
                 
-                print(f"📊 Summary saved to: {summary_filename}")
+                print(f"Summary saved to: {summary_filename}")
                 
         except Exception as e:
-            print(f"❌ Error occurred: {e}")
+            print(f"Error: {e}")
             
-            # Save error info
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            error_filename = f"scraping_error_{timestamp}.txt"
+            error_filename = f"error_{timestamp}.txt"
             
             with open(error_filename, 'w', encoding='utf-8') as f:
-                f.write(f"SCRAPING ERROR\n")
-                f.write(f"Website: https://www.cryptocraft.com/\n")
+                f.write(f"ERROR REPORT\n")
+                f.write(f"Website: {url}\n")
                 f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                 f.write(f"Error: {str(e)}\n")
             
-            print(f"❌ Error details saved to: {error_filename}")
+            print(f"Error saved to: {error_filename}")
             
         finally:
             print("Closing browser...")
             await browser.close()
 
-# Run the scraper
 if __name__ == "__main__":
-    print("🚀 Starting Cryptocraft.com text scraper...")
-    print("="*60)
+    print("Starting cryptocraft scraper...")
+    print("=" * 50)
     asyncio.run(scrape_and_save())
-    print("\n✅ Scraping complete!")
-    print("📁 Check the generated .txt files for results")
-, line) and
-                        not re.match(r'^(true|false|null|\d+)
-            
-            print(f"Content length: {len(content)} characters")
-            
-            if "verifying" in content.lower() or len(content) < 100:
-                print("❌ Still stuck on verification page or minimal content")
-                print("First 200 chars:", content[:200])
-                
-                # Save the verification page content too for debugging
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                debug_filename = f"verification_page_{timestamp}.txt"
-                
-                with open(debug_filename, 'w', encoding='utf-8') as f:
-                    f.write(f"Verification page content from: {url}\n")
-                    f.write(f"Scraped on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write("="*60 + "\n\n")
-                    f.write(content)
-                
-                print(f"🔍 Debug content saved to: {debug_filename}")
-                
-            else:
-                print("✅ Successfully retrieved content!")
-                print("Preview (first 300 chars):")
-                print("-" * 50)
-                print(content[:300] + "..." if len(content) > 300 else content)
-                print("-" * 50)
-                
-                # Create filename with timestamp
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                filename = f"cryptocraft_content_{timestamp}.txt"
-                
-                # Write content to file
-                with open(filename, 'w', encoding='utf-8') as f:
-                    f.write(f"Website: {url}\n")
-                    f.write(f"Page Title: {title}\n")
-                    f.write(f"Scraped on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"Content length: {len(content)} characters\n")
-                    f.write("="*60 + "\n\n")
-                    f.write(content)
-                
-                print(f"💾 Content saved to: {filename}")
-                
-                # Also create a summary file with key statistics
-                summary_filename = f"cryptocraft_summary_{timestamp}.txt"
-                
-                # Extract some basic stats
-                word_count = len(content.split())
-                line_count = len(content.split('\n'))
-                
-                with open(summary_filename, 'w', encoding='utf-8') as f:
-                    f.write(f"SCRAPING SUMMARY\n")
-                    f.write(f"Website: {url}\n")
-                    f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"Page Title: {title}\n")
-                    f.write(f"Character count: {len(content):,}\n")
-                    f.write(f"Word count: {word_count:,}\n")
-                    f.write(f"Line count: {line_count:,}\n")
-                    f.write(f"Main content file: {filename}\n")
-                    f.write("="*60 + "\n\n")
-                    f.write("PREVIEW (first 500 characters):\n")
-                    f.write(content[:500])
-                    if len(content) > 500:
-                        f.write("\n\n... (truncated, see main file for full content)")
-                
-                print(f"📊 Summary saved to: {summary_filename}")
-                
-        except Exception as e:
-            print(f"❌ Error occurred: {e}")
-            
-            # Save error info
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            error_filename = f"scraping_error_{timestamp}.txt"
-            
-            with open(error_filename, 'w', encoding='utf-8') as f:
-                f.write(f"SCRAPING ERROR\n")
-                f.write(f"Website: https://www.cryptocraft.com/\n")
-                f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                f.write(f"Error: {str(e)}\n")
-            
-            print(f"❌ Error details saved to: {error_filename}")
-            
-        finally:
-            print("Closing browser...")
-            await browser.close()
-
-# Run the scraper
-if __name__ == "__main__":
-    print("🚀 Starting Cryptocraft.com text scraper...")
-    print("="*60)
-    asyncio.run(scrape_and_save())
-    print("\n✅ Scraping complete!")
-    print("📁 Check the generated .txt files for results")
-, line) and
-                        not 'calendarComponentStates' in line and
-                        not line.startswith('window.') and
-                        len(line) > 3):
-                        cleaned_lines.append(line)
-                
-                content = '\n'.join(cleaned_lines)
-                content = content.strip()
-            else:
-                content = "No readable content found"
-            
-            print(f"Content length: {len(content)} characters")
-            
-            if "verifying" in content.lower() or len(content) < 100:
-                print("❌ Still stuck on verification page or minimal content")
-                print("First 200 chars:", content[:200])
-                
-                # Save the verification page content too for debugging
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                debug_filename = f"verification_page_{timestamp}.txt"
-                
-                with open(debug_filename, 'w', encoding='utf-8') as f:
-                    f.write(f"Verification page content from: {url}\n")
-                    f.write(f"Scraped on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write("="*60 + "\n\n")
-                    f.write(content)
-                
-                print(f"🔍 Debug content saved to: {debug_filename}")
-                
-            else:
-                print("✅ Successfully retrieved content!")
-                print("Preview (first 300 chars):")
-                print("-" * 50)
-                print(content[:300] + "..." if len(content) > 300 else content)
-                print("-" * 50)
-                
-                # Create filename with timestamp
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                filename = f"cryptocraft_content_{timestamp}.txt"
-                
-                # Write content to file
-                with open(filename, 'w', encoding='utf-8') as f:
-                    f.write(f"Website: {url}\n")
-                    f.write(f"Page Title: {title}\n")
-                    f.write(f"Scraped on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"Content length: {len(content)} characters\n")
-                    f.write("="*60 + "\n\n")
-                    f.write(content)
-                
-                print(f"💾 Content saved to: {filename}")
-                
-                # Also create a summary file with key statistics
-                summary_filename = f"cryptocraft_summary_{timestamp}.txt"
-                
-                # Extract some basic stats
-                word_count = len(content.split())
-                line_count = len(content.split('\n'))
-                
-                with open(summary_filename, 'w', encoding='utf-8') as f:
-                    f.write(f"SCRAPING SUMMARY\n")
-                    f.write(f"Website: {url}\n")
-                    f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"Page Title: {title}\n")
-                    f.write(f"Character count: {len(content):,}\n")
-                    f.write(f"Word count: {word_count:,}\n")
-                    f.write(f"Line count: {line_count:,}\n")
-                    f.write(f"Main content file: {filename}\n")
-                    f.write("="*60 + "\n\n")
-                    f.write("PREVIEW (first 500 characters):\n")
-                    f.write(content[:500])
-                    if len(content) > 500:
-                        f.write("\n\n... (truncated, see main file for full content)")
-                
-                print(f"📊 Summary saved to: {summary_filename}")
-                
-        except Exception as e:
-            print(f"❌ Error occurred: {e}")
-            
-            # Save error info
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            error_filename = f"scraping_error_{timestamp}.txt"
-            
-            with open(error_filename, 'w', encoding='utf-8') as f:
-                f.write(f"SCRAPING ERROR\n")
-                f.write(f"Website: https://www.cryptocraft.com/\n")
-                f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                f.write(f"Error: {str(e)}\n")
-            
-            print(f"❌ Error details saved to: {error_filename}")
-            
-        finally:
-            print("Closing browser...")
-            await browser.close()
-
-# Run the scraper
-if __name__ == "__main__":
-    print("🚀 Starting Cryptocraft.com text scraper...")
-    print("="*60)
-    asyncio.run(scrape_and_save())
-    print("\n✅ Scraping complete!")
-    print("📁 Check the generated .txt files for results")
+    print("Scraping complete!")
