@@ -1,0 +1,11 @@
+SCRAPING SUMMARY
+Website: https://www.cryptocraft.com/
+Date: 2025-09-26 15:08:37
+Characters: 8,926
+Words: 1,381
+Content file: cryptocraft_clean_20250926_150837.txt
+========================================
+
+PREVIEW:
+Crypto Craft Crypto markets for the smart money. Home Forums News Calendar Coins Market LoginCreate AccountUser/Email:Password: 12:08am Menu Forums News Calendar Coins Market Login Create Account 12:08am Traders Online 389 Page Layout Crypto Trader Traders Online 389 Page Layout Crypto Trader Scanner About Live (temporarily disabled) Scanner Settings Block Name: Rows Displayed: 12345678 Metrics Columns Displayed: 345678 Instruments Set Alerts Bid Chart: Last hr Net Chg: hr Chg: hr BTC/USD ETH/US
+...(truncated)
