@@ -40,7 +40,7 @@ async def scrape_and_save():
         page = await context.new_page()
         
         try:
-            url = "https://www.cryptocraft.com/"
+            url = "https://www.cryptocraft.com/market/btcusd"
             print(f"Accessing: {url}")
             print("Attempting to bypass Cloudflare...")
             
