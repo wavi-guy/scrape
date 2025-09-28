@@ -1,0 +1,515 @@
+Multi-page scrape + API data collection
+Pages scraped: 4
+API endpoints: 1 (CoinMarketCap Fear & Greed)
+Scraped: 2025-09-28 23:11:21
+Total length: 45970 characters
+============================================================
+
+=== PAGE: https://www.cryptocraft.com/ ===
+TITLE: Crypto Craft Crypto markets for the smart money.
+============================================================
+Crypto Craft Crypto markets for the smart money. Home Forums News Calendar Coins Market LoginCreate AccountUser/Email:Password:
+11:10pm
+Menu Forums
+News
+Calendar
+Coins
+Market
+Login
+Create Account
+11:10pm
+Traders Online
+403
+Page Layout Crypto Trader Traders Online
+403
+Page Layout Crypto Trader Scanner About Live (temporarily disabled) Scanner Settings
+Block Name: Rows Displayed: 12345678
+Metrics
+Columns Displayed: 345678
+Instruments
+Set Alerts
+Bid
+Chart: Last hr
+Net Chg: hr
+Chg: hr
+BTC/USD ETH/USD DOGE/USD BCH/USD LTC/USD XMR/USD ETC/USD ZEC/USD
+Sep 28, 2025 Sep 29, 2025 Up Next Search Events Filter Date 11:10pm Impact Detail Actual Forecast Previous Graph
+11:10pm Actual
+Sun Sep 28
+Sun Sep 28
+Mon Sep 29
+Mon Sep 29 3:00pm US Pending Home Sales m/m 0.2% -0.4%
+6:00pm US SEC Chair Atkins Speaks
+8:25pm US SEC Commissioner Uyeda Speaks
+10:20pm US SEC Commissioner Peirce Speaks
+More News Latest Stories Traders’ Weekly Playbook: Trading Through an Impending US Government Shutdown From pepperstone.com|10 min ago Welcome to the Age of Perennial Crisis From dlacalle.com|1 hr 10 min ago Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|2 hr 40 min ago The hidden force behind Bitcoin and Ether price swings: Options expiry From cointelegraph.com|4 hr ago Here’s What Happens When the US Government Shuts Down From msn.com|8 hr ago|5 comments US: Inflation is heating up From robinjbrooks.substack.com|18 hr ago|4 comments ETH Liquidity Heatmap Hints Retest to $3,700-$3,800 Range From fxdailyreport.com|22 hr ago Higher stakes, Fed 'flying blind,' and 'data desert': Why this government shutdown would... From finance.yahoo.com|27 hr ago Kraken in Strategic Investor Talks at $20 Billion Valuation From msn.com|31 hr ago Vanguard May Finally Allow Access to Bitcoin and Ethereum ETFs From financefeeds.com|38 hr ago The Week in Crypto Deleveraging, Not Derailing From medium.com|42 hr ago Crypto Enters the “Era of Substance” From marketsmedia.com|46 hr ago More News Hot Stories Welcome to the Age of Perennial Crisis From dlacalle.com|1 hr 10 min ago The world is not going to see another crisis like the ones experienced in 2008 or 2011. No central bank or government is going to accept it. You may think the prospect is good news. However, the flip side is that this means secular stagnation and perennial crisis for wage earners and the middle class. There is slow-motion eternal crisis that leaves the ...The world is not going to see another crisis like the ones experienced in 2008 or 2011. No central bank or government is going to accept it. You may think the prospect is good news. However, the flip side is that this means secular stagnation and perennial crisis for wage earners and the middle class. There is slow-motion eternal crisis that leaves the ... Canada gross domestic product by industry, July 2025 From statcan.gc.ca|Sep 26, 2025|4 comments Real gross domestic product (GDP) grew 0.2% in July, after edging down (-0.1%) in June. The first increase in four months was predominantly driven by expansion in the goods-producing industries. Goods-producing industries rebounded with 0.6% increase in July, following three consecutive months of contraction, as all sectors in this grouping expanded. ...Real gross domestic product (GDP) grew 0.2% in July, after edging down (-0.1%) in June. The first increase in four months was predominantly driven by expansion in the goods-producing industries. Goods-producing industries rebounded with 0.6% increase in July, following three consecutive months of contraction, as all sectors in this grouping expanded. ... ETH Liquidity Heatmap Hints Retest to $3,700-$3,800 Range From fxdailyreport.com|22 hr ago Ethereum’s ($ETH) exclusive trading activity is getting significant attention among market observers. In this respect, the ETH liquidity heatmap points toward likely retest of the price range between $3,700 and $3,800. The $3,700-$3,800 range’s retest builds on the fact that the long liquidations are densely concentrated within the respective zone. Hence, ...Ethereum’s ($ETH) exclusive trading activity is getting significant attention among market observers. In this respect, the ETH liquidity heatmap points toward likely retest of the price range between $3,700 and $3,800. The $3,700-$3,800 range’s retest builds on the fact that the long liquidations are densely concentrated within the respective zone. Hence, ... More Mineable Coins Top-5 Market Caps Top-5 Market Caps Settings Live (temporarily disabled) Coins Options
+Top-5 Market Caps Top-8 Market Caps Top-10 Market Caps Top-12 Market Caps Custom Selection $2B+ Market Caps $1B+ Market Caps $500M+ Market Caps $200M+ Market Caps Please note: The Coins product only includes mineable* cryptocurrencies. See the 'About Coins' sidebar for more information.
+Coins Settings
+Show Exchange Bids: Show Charts: Show 'All' row: Graph/Chart Colors: Default Settings
+Forums Latest Replies Merka replied min ago nice market just opened and you already did 2.32%. that's good start for the week. cheers Majors Active Trading mr.brown replied 31 min ago My best trade is next trade. new week ahead Majors Active Trading GhosTraderGT replied hr 18 min ago Hello Gents Can you do some magic on this indi? Want the calculations changed from TMA to RSI as Tma is slow to respond to price. Indi calculation is based on TMA but want it ... will code your EAs and Indicators for no charge BestTraderEv replied hr 32 min ago|1 like do not answer private requests for coding. will code your EAs and Indicators for no charge genuine007 replied hr ago No No Not that way, meaning by Instagram content like REELS, VIDEOS etc Prop Firm Hub Trader191 replied 10 hr ago do, have Meta stocks and in many ETF Prop Firm Hub jeanlouie replied 11 hr ago This has the alerts on completed engulfing/inside bars, but the lines stay. The inside bar setting would be engulfing to the right, of length 1. ... will code your EAs and Indicators for no charge iardavan replied 14 hr ago If possible, please check my private message. will code your EAs and Indicators for no charge oo7rai replied 17 hr ago yes, it is not working also dumped it already. Thank you. will code your EAs and Indicators for no charge More Sessions
+Forums Most Replied 7D will code your EAs and Indicators for no charge leads|Platform Tech|79,533 replies GhosTraderGT replied hr 18 min ago Hello Gents Can you do some magic on this indi? Want the calculations changed from TMA to RSI ... Prop Firm Hub leads|Prop Firm Discussion|51,269 replies genuine007 replied hr ago No No Not that way, meaning by Instagram content like REELS, VIDEOS etc Crypto Day Trading Journal 2.0 leads|Trading Journals|284 replies xausdfx replied 23 hr ago Going well so far, send it Majors Active Trading leads|Interactive Trading|526 replies Merka replied min ago nice market just opened and you already did 2.32%. that's good start for the week. cheers Justin's Playground leads|Trading Journals|3,745 replies Aussi replied 23 hr ago trade bitcon on weekends one of the key things you need is reliable indicator to show ... Bitcoin Trading leads|Interactive Trading|5 replies vankiepsauff replied Sep 26, 2025 closed all long at 109000 Aussi's crypto weekends leads|Interactive Trading|1,596 replies Aussi replied 23 hr ago {image} Indicator Bank leads|Platform Tech|2,080 replies ThaoAnh replied 27 hr ago {image} {file} {file} {file} {file} {file} {file} Bitcoin (BTCUSD) leads|Interactive Trading|1,674 replies rickdaniel replied Sep 25, 2025 Sounds good, trading BTCUSD can be really volatile, so timing entries and risk management ... Do you use stoploss? leads|Rookie Talk|695 replies Agra1 replied Sep 25, 2025 Fx4money, you said you don't use stop loss for your gold investor system. Given the risk of ... XRP and XLM leads|Interactive Trading|1 reply RianAtheer replied Sep 22, 2025 Interesting approach layering in with small lots and holding long-term on XRP XLM could pay ... Trend momentum leads|Trading Discussion|9 replies since80808 replied 30 hr ago Which method? Any system in this thread? More Top of Page Default Page About CC Mission Products User Guide Blog Contact CC Products Forums Calendar News Coins Market CC Website Homepage Search Traders Report Problem Follow CC CC Sister Sites: Crypto Craft® is brand of Fair Economy, Inc. Terms of Service ©2025
+============================================================
+=== PAGE: https://www.cryptocraft.com/market/btcusd ===
+TITLE: BTC/USD Crypto Craft
+============================================================
+BTC/USD Crypto Craft Home Forums News Calendar Coins Market LoginCreate AccountUser/Email:Password:
+11:10pm
+Menu Forums
+News
+Calendar
+Coins
+Market
+Login
+Create Account
+11:10pm
+Page Layout Crypto Focused Page Layout Crypto Focused Live (temporarily disabled) BTC/USD
+Click to change the
+displayed instrument.
+111507.6 Hottest Stories for BTC/USD Here’s What Happens When the US Government Shuts Down From msn.com|8 hr ago|5 comments US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly rewriting those plans in advance of the end of the fiscal year next Tuesday, making potential shutdown even more unpredictable and potentially disruptive than any other in memory. ...US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly rewriting those plans in advance of the end of the fiscal year next Tuesday, making potential shutdown even more unpredictable and potentially disruptive than any other in memory. ... Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|2 hr 40 min ago United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and offered incentives, which pulled demand forward and tightened supply to 6.8 months. Existing home sales, by contrast, stayed flat close to 4.00 million, with supply at 4.6 months, ...United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and offered incentives, which pulled demand forward and tightened supply to 6.8 months. Existing home sales, by contrast, stayed flat close to 4.00 million, with supply at 4.6 months, ... More Latest Stories for BTC/USD Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|2 hr 40 min ago Here’s What Happens When the US Government Shuts Down From msn.com|8 hr ago|5 comments US: Inflation is heating up From robinjbrooks.substack.com|18 hr ago|4 comments President Trump posts cartoon image depicting him firing Fed Chief Powell From msn.com|20 hr ago|49 comments October 2025 Monthly From marctomarket.com|22 hr ago Higher stakes, Fed 'flying blind,' and 'data desert': Why this government shutdown would... From finance.yahoo.com|27 hr ago Inflation remains elevated. That won't keep the Fed from cutting rates From politico.com|34 hr ago|3 comments Trump’s 100% Pharmaceutical Tariffs Won’t Apply to the EU and Japan From msn.com|38 hr ago|14 comments US dollar at risk if Trump can sway Fed to more dovish stance, says PGIM exec From finance.yahoo.com|46 hr ago|1 comment The US Consumer Keeps on Spending From economics.bmo.com|Sep 26, 2025|2 comments More Posts about BTC/USD mental9tyfx replied hr 33 min ago Forex Outlook: Week Beginning Sep 29, 2025 Markets ended the week pricing doubled set of signals: stronger-than-expected U.S. growth revision (Q2 GDP revised higher) that ... Mental9ty Trading Journal deekay4x replied hr 46 min ago What options are available to USA traders, can someone please point me to post/thread. Thanks for your help Prop Firm Hub 2.0 ENoris replied 12 hr ago|1 like When first stepped into trading approx year ago, it felt overwhelming, the charts, the strategies, the endless advice everywhere. Forum threads with 100s and several 1000s of ... Golden-Cross Trading-Idea StillDreamer replied 19 hr ago Third strong trend is Silver. Monthly, Weekly and Daily charts are quite bullish. From monthly chart, we can assume that we will see 2011 top level soon which was around 50.00. ... Dreamer's Journal More Sessions
+Performance Last hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 12 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr
+Net Chg: $612.32$1,289.72$2,026.32
+Chart:
+Chg: 0.55%1.17%1.85%
+Chart for BTC/USD Expand Drawing Indicators Live (temporarily disabled) Settings Lines
+Clear All Moving Average MACD
+Breaking News
+Clear All
+Sessions
+Calendar Events
+Chart Settings
+Determines the time zone observed by the chart. All timestamps on the chart will be displayed in this time zone. Observed Time Zone:
+Match My CC Time SettingsGMT -12GMT -11GMT -10GMT -9GMT -8GMT -7GMT -6GMT -5GMT -4GMT -3GMT -2GMT -1GMT +0GMT +1GMT +2GMT +3GMT +4GMT +5GMT +6GMT +7GMT +8GMT +9GMT +10GMT +11GMT +12 Chart Height: Pixels
+Chart Height (mobile): Pixels
+Chart Width: Full-WidthHalf-Width Bar Type: CandleOHLCLineLine (dotted)Area Displayed Intervals:
+Minute
+Minute
+10 Minute
+15 Minute
+30 Minute
+Hour
+Hour
+Daily
+Weekly
+Monthly
+Cursor: CrossHorizontalVerticalNone Colors: Data Background Grid Mouse Wheel Zooming: OffOn
+(, range)
+BTC/USD is synthetically derived;
+High/Low data integrity may vary.
+Upcoming events for BTC/USD There are no upcoming events for BTC/USD.
+Due Impact Forecast
+15 hr US Pending Home Sales m/m US Pending Home Sales m/m
+0.2%
+18 hr US SEC Chair Atkins Speaks US SEC Chair Atkins Speaks
+21 hr US SEC Commissioner Uyeda Speaks US SEC Commissioner Uyeda Speaks
+23 hr US SEC Commissioner Peirce Speaks US SEC Commissioner Peirce Speaks
+27 hr CH Manufacturing PMI CH Manufacturing PMI
+49.6
+30 hr AU Cash Rate AU Cash Rate
+3.60%
+30 hr AU RBA Rate Statement AU RBA Rate Statement
+31 hr AU RBA Press Conference AU RBA Press Conference
+Maximum Allowed More More Quotes for BTC/USD Exchanges Bid Ask Spread
+WhiteBIT
+$112,084.8
+$112,109.9
+$25.1
+Bitfinex
+$111,723.4
+$111,733.4
+$10.0
+Coinbase
+$111,535.6
+$111,535.6
+$0.0
+Gemini
+$111,532.0
+$111,532.0
+$0.0
+Poloniex
+$111,514.5
+$110,936.7
+$577.8
+KuCoin
+$111,500.7
+$111,500.8
+$0.1
+OKX
+$111,500.3
+$111,500.4
+$0.1
+CoinEx
+$111,471.3
+$111,472.3
+$1.0
+ProBit
+$111,449.1
+$111,450.1
+$1.0
+Hotcoin
+$111,443.5
+$111,445.5
+$2.0
+Crypto Instruments About
+BTC/USD
+ETH/USD
+DOGE/USD
+BCH/USD
+LTC/USD
+XMR/USD
+ETC/USD
+ZEC/USD
+Macro Instruments About
+SPX/USD
+NDX/USD
+Nikkei225/USD
+FTSE100/USD
+DXY/USD
+WTI/USD
+Gold/USD
+VIX/USD
+Top of Page Default Page About CC Mission Products User Guide Blog Contact CC Products Forums Calendar News Coins Market CC Website Homepage Search Traders Report Problem Follow CC CC Sister Sites: Crypto Craft® is brand of Fair Economy, Inc. Terms of Service ©2025
+Determines the time zone observed by the chart. All timestamps on the chart will be displayed in this time zone.
+============================================================
+=== PAGE: https://www.cryptocraft.com/news ===
+TITLE: News Crypto Craft
+============================================================
+News Crypto Craft Home Forums News Calendar Coins Market LoginCreate AccountUser/Email:Password:
+11:11pm
+Menu Forums
+News
+Calendar
+Coins
+Market
+Login
+Create Account
+11:11pm
+Submit News Search Breaking News Legend High Impact Medium Impact Low Impact
+Breaking news is defined as new information that has market-moving potential.
+(more)
+All breaking news is rated high (red), medium (orange), or low (yellow) depending on the how much it impacted the market.
+Central Bank Rates 4.25% US 4.00% UK 3.60% AU 3.00% NZ 2.50% CA 2.15% EZ <0.50% JN 0.00% SZ Crypto News News Latest Stories Stream News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Traders’ Weekly Playbook: Trading Through an Impending US Government Shutdown From pepperstone.com|10 min ago Welcome to the Age of Perennial Crisis From dlacalle.com|1 hr 10 min ago Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|2 hr 40 min ago The hidden force behind Bitcoin and Ether price swings: Options expiry From cointelegraph.com|4 hr ago Here’s What Happens When the US Government Shuts Down From msn.com|8 hr ago|5 comments US: Inflation is heating up From robinjbrooks.substack.com|18 hr ago|4 comments ETH Liquidity Heatmap Hints Retest to $3,700-$3,800 Range From fxdailyreport.com|22 hr ago Higher stakes, Fed 'flying blind,' and 'data desert': Why this government shutdown would... From finance.yahoo.com|27 hr ago Kraken in Strategic Investor Talks at $20 Billion Valuation From msn.com|31 hr ago Vanguard May Finally Allow Access to Bitcoin and Ethereum ETFs From financefeeds.com|38 hr ago The Week in Crypto Deleveraging, Not Derailing From medium.com|42 hr ago Crypto Enters the “Era of Substance” From marketsmedia.com|46 hr ago Wall Street's Crypto Reckoning: Bitcoin Treasury Buying Crashes 76% Amid Institutional Pullback From markets.financialcontent.com|Sep 26, 2025 Eric Trump on why crypto is America’s financial future From nypost.com|Sep 26, 2025 Tennessee Couple Hit With $6.8 Million Penalty for 'Blessings of God Thru Crypto' Fraud From decrypt.co|Sep 26, 2025 More News Latest Liked News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Eurorally commented hr ago Inflation is heating up? The GDP Price index is 2.1%, PPI 2.6% and CPI 2.9% while the average annual inflation over the last 50 years has been 3.38%. And those who professed doom ... Inflation is heating up? The GDP Price index is 2.1%, PPI 2.6% and CPI 2.9% while the average annual inflation over the last 50 years has been 3.38%. And those who professed doom ... US: Inflation is heating up ffghost commented Sep 26, 2025 If had to guess, the higher income people are keeping the economy up while the lower income folks are keeping the survey numbers skewed down. There is no question things cost ... If had to guess, the higher income people are keeping the economy up while the lower income folks are keeping the survey numbers skewed down. There is no question things cost ... US UMich final September consumer sentiment 55.1 vs 55.4 expected DuranDuran commented Sep 26, 2025 Shocking that the monthly +70 UMich poll says the economy is failing again. GDP was +3.8% last quarter but these people would have you believe we’re in recession. Have we ... Shocking that the monthly +70 UMich poll says the economy is failing again. GDP was +3.8% last quarter but these people would have you believe we’re in recession. Have we ... US UMich final September consumer sentiment 55.1 vs 55.4 expected Schultz commented Sep 26, 2025 Perhaps there is nothing much that the Fed can do, realistically, with respect to the real economy. From about Dec 2008 to maybe July 2022 the real Fed funds was negative, give or ... US Personal Income and Outlays, August 2025 DaJoWaBa commented Sep 26, 2025 Whilst earnings continue to exceed the RoI, without job losses biting, the consumer is happy enough. So, maybe, they'll hold. It all rather depends on how and when any tariffs on ... US Personal Income and Outlays, August 2025 More Entertainment News Latest Stories News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Tennessee Couple Hit With $6.8 Million Penalty for 'Blessings of God Thru Crypto' Fraud From decrypt.co|Sep 26, 2025 Tennessee couple who exploited their real estate connections to bilk investors out of millions through fake crypto trading scheme has been ordered to pay over $6.8 million in restitution and penalties. The Commodity Futures Trading Commission announced Thursday that the U.S. District Court for the Middle District of Tennessee entered consent order ... Big banks win dismissal of Libor-rigging litigation in New York From finance.yahoo.com|Sep 26, 2025 federal judge on Thursday dismissed "all remaining claims" in slew of antitrust litigation accusing large banks of conspiring to rig Libor, an interest rate benchmark that once underpinned hundreds of trillions of dollars of transactions, at investors' expense. In 273-page decision, U.S. District Judge Naomi Reice Buchwald said that despite 14 years ... More Educational News Latest Story News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+The hidden force behind Bitcoin and Ether price swings: Options expiry From cointelegraph.com|4 hr ago To most people, Bitcoin and Ether market prices can seem unpredictable. But look closer, and there’s hidden force driving the infamous volatility: options expiries. When large volumes of these derivative options contracts approach their expiry date, it sends ripples through the crypto markets. Understand this, and you’ll know when prices are more likely ... More News Hot Stories News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Welcome to the Age of Perennial Crisis From dlacalle.com|1 hr 10 min ago The world is not going to see another crisis like the ones experienced in 2008 or 2011. No central bank or government is going to accept it. You may think the prospect is good news. However, the flip side is that this means secular stagnation and perennial crisis for wage earners and the middle class. There is slow-motion eternal crisis that leaves the ...The world is not going to see another crisis like the ones experienced in 2008 or 2011. No central bank or government is going to accept it. You may think the prospect is good news. However, the flip side is that this means secular stagnation and perennial crisis for wage earners and the middle class. There is slow-motion eternal crisis that leaves the ... Canada gross domestic product by industry, July 2025 From statcan.gc.ca|Sep 26, 2025|4 comments Real gross domestic product (GDP) grew 0.2% in July, after edging down (-0.1%) in June. The first increase in four months was predominantly driven by expansion in the goods-producing industries. Goods-producing industries rebounded with 0.6% increase in July, following three consecutive months of contraction, as all sectors in this grouping expanded. ...Real gross domestic product (GDP) grew 0.2% in July, after edging down (-0.1%) in June. The first increase in four months was predominantly driven by expansion in the goods-producing industries. Goods-producing industries rebounded with 0.6% increase in July, following three consecutive months of contraction, as all sectors in this grouping expanded. ... ETH Liquidity Heatmap Hints Retest to $3,700-$3,800 Range From fxdailyreport.com|22 hr ago Ethereum’s ($ETH) exclusive trading activity is getting significant attention among market observers. In this respect, the ETH liquidity heatmap points toward likely retest of the price range between $3,700 and $3,800. The $3,700-$3,800 range’s retest builds on the fact that the long liquidations are densely concentrated within the respective zone. Hence, ...Ethereum’s ($ETH) exclusive trading activity is getting significant attention among market observers. In this respect, the ETH liquidity heatmap points toward likely retest of the price range between $3,700 and $3,800. The $3,700-$3,800 range’s retest builds on the fact that the long liquidations are densely concentrated within the respective zone. Hence, ... More Fundamental Analysis Most Viewed 12H News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+US: Inflation is heating up From robinjbrooks.substack.com|18 hr ago|4 comments The signals on inflation have been confusing to say the least. Tariffs did push up inflation, but that impulse peaked in June and has faded rapidly since then. Yet core inflation ...The signals on inflation have been confusing to say the least. Tariffs did push up inflation, but that impulse peaked in June and has faded rapidly since then. Yet core inflation ... Here’s What Happens When the US Government Shuts Down From msn.com|8 hr ago|5 comments US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly ...US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly ... Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|2 hr 40 min ago United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and ...United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and ... More Breaking News Most Viewed 12H News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+There are no posts to display for these settings. Technical Analysis Latest Stories News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Traders’ Weekly Playbook: Trading Through an Impending US Government Shutdown From pepperstone.com|10 min ago This, in turn, has pushed the USD Index (DXY) to 98.60, where better sellers have emerged at the August range highs and the 100-day MA. Those long of USDs will want to see daily close above 98.80 and below 1.1660 (EURUSD) to see technical momentum build, but that will likely require rates traders to reprice/reduce expectations for Fed cut in the October ... ETH Liquidity Heatmap Hints Retest to $3,700-$3,800 Range From fxdailyreport.com|22 hr ago Ethereum’s ($ETH) exclusive trading activity is getting significant attention among market observers. In this respect, the ETH liquidity heatmap points toward likely retest of the price range between $3,700 and $3,800. The $3,700-$3,800 range’s retest builds on the fact that the long liquidations are densely concentrated within the respective zone. Hence, ... More Crypto Industry News Latest Story News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Kraken in Strategic Investor Talks at $20 Billion Valuation From msn.com|31 hr ago Kraken is in advanced talks to raise new funding that could value the crypto exchange at about $20 billion, as the company steps up capital-raising efforts ahead of potential public listing. The funding, which is not yet finalized and remains subject to market conditions, would consist of $200 million to $300 million commitment from strategic ... More Top of Page Default Page About CC Mission Products User Guide Blog Contact CC Products Forums Calendar News Coins Market CC Website Homepage Search Traders Report Problem Follow CC CC Sister Sites: Crypto Craft® is brand of Fair Economy, Inc. Terms of Service ©2025
+============================================================
+=== PAGE: https://coinmarketcap.com/charts/fear-and-greed-index/ ===
+TITLE: Crypto Fear and Greed Index CoinMarketCap
+============================================================
+CryptocurrenciesCryptocurrenciesRankingCategoriesHistorical SnapshotsToken unlocksYieldReal-World AssetsLeaderboardsTrendingUpcomingRecently AddedGainers LosersMost VisitedCommunity SentimentChain RankingMarket OverviewMarket OverviewCoinMarketCap 20 IndexCoinMarketCap 100 IndexFear and Greed IndexAltcoin Season IndexBitcoin DominanceCrypto ETFsMarket Cycle IndicatorsRelative Strength Index (RSI)TreasuriesBitcoin TreasuriesBNB TreasuriesNFTOverall NFT StatsUpcoming SalesDexScanSignalsNewTrendingNewGainersMeme ExplorerTop TradersExchangesCentralized ExchangesSpotDerivativesDecentralized ExchangesSpotDerivativesCommunityFeedsLivesArticlesSentimentProductsProductsConverterNewsletterCMC LabsTelegram BotAdvertiseCrypto APISite WidgetsCampaignsAirdropsDiamond RewardsLearn EarnCalendarsICO CalendarEvents CalendarLearnNewsAcademyResearchVideosGlossaryCMC LaunchPortfolioWatchlistSearch/Log In MarketsMarket OverviewSpot MarketDerivatives Market No. of CryptocurrenciesBitcoin TreasuriesBNB TreasuriesIndicatorsFear and Greed IndexAltcoin Season IndexMarket Cycle IndicatorsBitcoin DominanceCoinMarketCap 20 IndexCoinMarketCap 100 IndexETF FlowsCrypto ETFsBitcoin ETFsEthereum ETFsTechnical AnalysisRSI DashboardCMC Crypto Fear and Greed IndexSee API DetailsDiscover our Fear and Greed Index, powerful tool that analyzes market sentiment to help you make informed crypto investment decisions. Stay ahead of market trends with real-time and historical data available through our easy-to-use API.See API DetailsCMC Crypto Fear and Greed Index50NeutralHistorical ValuesYesterdayNeutral 50Last WeekNeutral 50Last MonthNeutral 50Yearly High and LowYearly High ()Neutral 50Yearly Low ()Neutral 50CMC Crypto Fear and Greed Index50NeutralHistorical ValuesYesterdayNeutral 50Last WeekNeutral 50Last MonthNeutral 50Yearly High and LowYearly High ()Neutral 50Yearly Low ()Neutral 50Oops! Something went wrong. Try AgainAbout CMC Crypto Fear and Greed IndexWhat is the CMC Fear and Greed Index?The CMC Fear and Greed Index is proprietary tool developed by CoinMarketCap that measures the prevailing sentiment in the cryptocurrency market. This index ranges from to 100, where lower value indicates extreme fear, and higher value indicates extreme greed. It helps investors understand the emotional state of the market, which can influence buying and selling behaviors. The index provides insights into whether the market may be undervalued (extreme fear) or overvalued (extreme greed).How can use this index?The CMC Fear and Greed Index can be used in several ways:
+Market Sentiment Analysis: By observing the current value of the index, you can gauge the overall mood of the cryptocurrency market. For example, high value suggests that investors are overly greedy, which may indicate that the market is overheated and due for correction. Conversely, low value may suggest that fear is driving prices down, potentially creating buying opportunities.
+Contrarian Strategy: Some investors use the index as part of contrarian investment strategy. The idea is to "be fearful when others are greedy and greedy when others are fearful." If the index shows extreme greed, it might be signal to consider selling assets, while extreme fear could indicate buying opportunity.
+Complementary Analysis: Use the index alongside other analytical tools and indicators to make more informed decisions. It’s important to remember that the index is tool for gauging sentiment and should not be used in isolation.How is this index calculated?The CMC Fear and Greed Index is calculated using five key components:
+1. Price Momentum: This factor analyzes the price performance of the top 10 cryptocurrencies by market capitalization (excluding stablecoins). It assesses how these coins are performing relative to each other and the broader market.
+2. Volatility: The index incorporates Volmex Implied Volatility Indices (BVIV and EVIV) for Bitcoin (BTC) and Ethereum (ETH), which provide forward-looking measures of expected volatility over the next 30 days.
+3. Derivatives Market: The index considers the Put/Call Ratio in the Bitcoin and Ethereum options markets. higher ratio of puts to calls indicates more fear in the market, suggesting bearish expectations among investors.
+4. Market Composition: This component looks at the relative value of Bitcoin (BTC) in the market, using the Stablecoin Supply Ratio (SSR) to measure the ratio between Bitcoin’s market capitalization and that of major stablecoins.
+5. CMC Proprietary Data: The index also uses social trend keyword searches and user engagement metrics to capture market sentiment, retail interest, and emerging trends.Can get this data through an API?Yes, you can access the CMC Fear and Greed Index data through the CoinMarketCap API for free. Here’s how you can do it:Example: Fetching the Latest CMC Fear and Greed Index ValueTo get the latest Fear and Greed Index value, you can use the following API endpoint:API Endpoint:
+GET https://pro-api.coinmarketcap.com/v3/fear-and-greed/historicalParameters
+start: (optional) Integer specifying the starting point of the data retrieval. limit: (optional) Integer specifying the number of records to return (default is 50).Response Example:```json
+// More records...
+}CMC Crypto Fear and Greed Index ArticlesCMC UpdatesCoinMarketCap Introduces the CMC Fear and Greed IndexCoinMarketCap releases our very own CMC Fear and Greed Index check out how it works and how you can use it to navigate the volatile crypto markets!by CoinMarketCap1yr ago4mCMC UpdatesHow CoinMarketCap's API Powers Real-World SolutionsCoinMarketCap, leader in real-time cryptocurrency data, powers thousands of innovative projects with its versatile API.by CoinMarketCap3w ago2mMarket MusingIntroducing the CoinMarketCap's Crypto Fear and Greed Index: Comprehensive Crypto Market Sentiment TrackerCoinMarketCap, leader in real-time cryptocurrency data, powers thousands of innovative projects with its versatile API.by Crypto Daily1yr ago3mProductsAcademyAdvertiseCMC LabsCMC UpdatesBitcoin ETFsCrypto APIDexScanReal-World AssetsGlobal ChartsNFTPortfolioWatchlistDoodlesSitemapCompanyAbout usTerms of usePrivacy PolicyCookie preferencesCookie policyCommunity RulesDisclaimerMethodologyCareersWe’re hiring!SupportGet ListedRequest FormContact SupportFAQGlossarySocialsX (Twitter)CommunityTelegramInstagramFacebookRedditLinkedIn© 2025 CoinMarketCap. All rights reserved Cryptos: 21.91MExchanges: 851Market Cap: $3.84T1.62%24h Vol: $101.16B0.49%Dominance: BTC: 57.8% ETH: 12.9% ETH Gas: 5.31 Gwei Fear Greed: 34/100Get listedAPIDelete item?This will delete "Market Overview"CancelDeleteDelete item?This will delete "Spot Market"CancelDeleteDelete item?This will delete "Derivatives Market "CancelDeleteDelete item?This will delete "No. of Cryptocurrencies"CancelDeleteDelete item?This will delete "Bitcoin Treasuries"CancelDeleteDelete item?This will delete "BNB Treasuries"CancelDeleteDelete item?This will delete "Fear and Greed Index"CancelDeleteDelete item?This will delete "Altcoin Season Index"CancelDeleteDelete item?This will delete "Market Cycle Indicators"CancelDeleteDelete item?This will delete "Bitcoin Dominance"CancelDeleteDelete item?This will delete "CoinMarketCap 20 Index"CancelDeleteDelete item?This will delete "CoinMarketCap 100 Index"CancelDeleteDelete item?This will delete "Crypto ETFs"CancelDeleteDelete item?This will delete "Bitcoin ETFs"CancelDeleteDelete item?This will delete "Ethereum ETFs"CancelDeleteDelete item?This will delete "RSI Dashboard"CancelDeleteMarketsMarket OverviewSpot MarketDerivatives Market No. of CryptocurrenciesBitcoin TreasuriesBNB TreasuriesIndicatorsFear and Greed IndexAltcoin Season IndexMarket Cycle IndicatorsBitcoin DominanceCoinMarketCap 20 IndexCoinMarketCap 100 IndexETF FlowsCrypto ETFsBitcoin ETFsEthereum ETFsTechnical AnalysisRSI DashboardDelete item?This will delete "Market Overview"CancelDeleteDelete item?This will delete "Spot Market"CancelDeleteDelete item?This will delete "Derivatives Market "CancelDeleteDelete item?This will delete "No. of Cryptocurrencies"CancelDeleteDelete item?This will delete "Bitcoin Treasuries"CancelDeleteDelete item?This will delete "BNB Treasuries"CancelDeleteDelete item?This will delete "Fear and Greed Index"CancelDeleteDelete item?This will delete "Altcoin Season Index"CancelDeleteDelete item?This will delete "Market Cycle Indicators"CancelDeleteDelete item?This will delete "Bitcoin Dominance"CancelDeleteDelete item?This will delete "CoinMarketCap 20 Index"CancelDeleteDelete item?This will delete "CoinMarketCap 100 Index"CancelDeleteDelete item?This will delete "Crypto ETFs"CancelDeleteDelete item?This will delete "Bitcoin ETFs"CancelDeleteDelete item?This will delete "Ethereum ETFs"CancelDeleteDelete item?This will delete "RSI Dashboard"CancelDelete
+============================================================
+
+============================================================
+
+=== API DATA: CoinMarketCap Fear & Greed Historical ===
+ENDPOINT: https://pro-api.coinmarketcap.com/v3/fear-and-greed/historical
+============================================================
+
+{
+  "data": [
+    {
+      "timestamp": "1758931200",
+      "value": 34,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "1758844800",
+      "value": 32,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "1758758400",
+      "value": 41,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1758672000",
+      "value": 39,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "1758585600",
+      "value": 40,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1758499200",
+      "value": 47,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1758412800",
+      "value": 48,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1758326400",
+      "value": 48,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1758240000",
+      "value": 52,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1758153600",
+      "value": 51,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1758067200",
+      "value": 51,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757980800",
+      "value": 50,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757894400",
+      "value": 51,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757808000",
+      "value": 52,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757721600",
+      "value": 53,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757635200",
+      "value": 50,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757548800",
+      "value": 47,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757462400",
+      "value": 43,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757376000",
+      "value": 44,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757289600",
+      "value": 42,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757203200",
+      "value": 40,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757116800",
+      "value": 41,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1757030400",
+      "value": 41,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1756944000",
+      "value": 44,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1756857600",
+      "value": 42,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1756771200",
+      "value": 39,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "1756684800",
+      "value": 39,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "1756598400",
+      "value": 40,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1756512000",
+      "value": 39,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "1756425600",
+      "value": 47,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1756339200",
+      "value": 45,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1756252800",
+      "value": 47,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1756166400",
+      "value": 43,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1756080000",
+      "value": 50,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755993600",
+      "value": 53,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755907200",
+      "value": 56,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755820800",
+      "value": 46,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755734400",
+      "value": 50,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755648000",
+      "value": 45,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755561600",
+      "value": 53,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755475200",
+      "value": 56,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755388800",
+      "value": 57,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755302400",
+      "value": 57,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755216000",
+      "value": 59,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1755129600",
+      "value": 68,
+      "value_classification": "Greed"
+    },
+    {
+      "timestamp": "1755043200",
+      "value": 63,
+      "value_classification": "Greed"
+    },
+    {
+      "timestamp": "1754956800",
+      "value": 60,
+      "value_classification": "Greed"
+    },
+    {
+      "timestamp": "1754870400",
+      "value": 62,
+      "value_classification": "Greed"
+    },
+    {
+      "timestamp": "1754784000",
+      "value": 59,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "1754697600",
+      "value": 58,
+      "value_classification": "Neutral"
+    }
+  ],
+  "status": {
+    "timestamp": "2025-09-28T22:11:20.831Z",
+    "error_code": "0",
+    "error_message": "",
+    "elapsed": 4,
+    "credit_count": 1
+  }
+}
+
+============================================================
+

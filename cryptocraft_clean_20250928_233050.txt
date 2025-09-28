@@ -1,0 +1,456 @@
+Multi-page scrape + API data collection
+Pages scraped: 1
+API endpoints: 0
+Scraped: 2025-09-28 23:30:50
+Total length: 13635 characters
+============================================================
+
+=== PAGE: https://whale-alert.io/alerts.html ===
+TITLE: Alerts Whale Alert
+============================================================
+Home
+Alerts
+Analytics
+Login
+Sign Up
+Create your own alerts with powerful filters and receive instant notifications of large transactions, faster than anywhere else. Try it FREE FOR DAYS and access customizable alerts and real-time analytics!
+Free Trial
+Custom Whale Alerts
+From: Aug 30 2025 To: Sep 28 2025
+Customize
+Custom Alert Filters
+Whale Alert Official
+Stablecoin >$50M
+XRP Whales >$50M
+Add Alert filter
+31 mins ago
+400 #BTC (44,322,294 USD)
+has just been activated after 11.9 years
+hours ago
+103,873,456 #USDT (104,005,635 USD)
+transferred from Galaxy Digital to unknown wallet
+17 hours ago
+883,000 #SOL (178,088,679 USD)
+transferred from unknown wallet to unknown wallet
+18 hours ago
+1,132,655 #SOL (228,160,764 USD)
+transferred from unknown wallet to unknown wallet
+22 hours ago
+250,000,000 #USDC (249,876,500 USD)
+transferred from unknown wallet to unknown wallet
+22 hours ago
+250,031,014 #USDC (249,906,124 USD)
+transferred from unknown wallet to unknown wallet
+22 hours ago
+250,031,014 #USDC (249,907,374 USD)
+transferred from unknown wallet to unknown wallet
+22 hours ago
+250,031,014 #USDC (249,907,374 USD)
+transferred from unknown wallet to unknown wallet
+27-Sept-2025 19:59
+764,930 #SOL (154,237,247 USD)
+transferred from unknown wallet to Coinbase Institutional
+27-Sept-2025 13:36
+99,999,999 #USDT (100,055,499 USD)
+transferred from unknown wallet to #Aave
+27-Sept-2025 13:34
+170,000,000 #USDT (170,168,016 USD)
+transferred from #Kraken to unknown wallet
+27-Sept-2025 13:28
+584 #BTC (63,888,044 USD)
+transferred from #Binance to unknown wallet
+27-Sept-2025 13:26
+170,000,000 #USDT (170,241,824 USD)
+transferred from Tether Treasury to #Kraken
+27-Sept-2025 12:26
+740 #BTC (80,910,061 USD)
+transferred from #Ceffu to unknown wallet
+27-Sept-2025 03:12
+120,000,000 #USDT (120,075,000 USD)
+transferred from Tether Treasury to #Bitfinex
+27-Sept-2025 03:11
+120,000,000 #USDT (120,078,000 USD)
+transferred from #Bitfinex to Tether Treasury
+27-Sept-2025 02:54
+1,000,000,000 #USDT (1,001,362,499 USD)
+minted at Tether Treasury
+27-Sept-2025 01:13
+250,000,000 #USDC (249,901,500 USD)
+transferred from unknown wallet to unknown wallet
+27-Sept-2025 01:04
+250,031,049 #USDC (249,882,781 USD)
+transferred from unknown wallet to unknown wallet
+27-Sept-2025 00:45
+250,031,049 #USDC (249,939,788 USD)
+transferred from unknown wallet to unknown wallet
+27-Sept-2025 00:43
+250,031,049 #USDC (249,904,659 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 23:56
+980 #BTC (107,469,129 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 21:43
+13,600 #ETH (54,614,965 USD)
+transferred from #Okex to unknown wallet
+26-Sept-2025 21:41
+13,600 #ETH (54,625,216 USD)
+transferred from #Okex to unknown wallet
+26-Sept-2025 21:00
+129,999,999 #USDT (130,182,324 USD)
+transferred from #Aave to unknown wallet
+26-Sept-2025 20:58
+129,999,999 #USDT (130,174,849 USD)
+transferred from unknown wallet to #Aave
+26-Sept-2025 20:55
+252,000,000 #USDT (252,147,420 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 20:46
+252,000,000 #USDT (252,146,160 USD)
+transferred from Tether Treasury to #Kraken
+26-Sept-2025 20:37
+498 #BTC (54,409,124 USD)
+transferred from unknown wallet to #Cumberland
+26-Sept-2025 20:35
+20,000,000 #XRP (55,680,505 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 20:35
+25,000,000 #XRP (69,604,257 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 19:55
+672 #BTC (73,897,078 USD)
+transferred from unknown wallet to #Gemini
+26-Sept-2025 19:26
+62,269,690 #USDC (62,275,917 USD)
+burned at USDC Treasury
+26-Sept-2025 19:17
+2,000 #BTC (220,400,641 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 19:12
+2,500 #BTC (274,877,829 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 18:56
+2,500 #BTC (274,581,380 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 18:32
+2,500 #BTC (274,372,375 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 18:32
+2,500 #BTC (274,372,375 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 18:10
+2,140 #BTC (234,467,162 USD)
+transferred from #Cryptocom to unknown wallet
+26-Sept-2025 18:06
+200,004,000 #PYUSD (200,017,943 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 17:47
+89,372,438 #USDC (89,318,814 USD)
+minted at USDC Treasury
+26-Sept-2025 17:45
+2,280 #BTC (249,286,783 USD)
+transferred from #Cryptocom to unknown wallet
+26-Sept-2025 17:45
+200,003,911 #PYUSD (199,979,152 USD)
+transferred from #Cumberland to unknown wallet
+26-Sept-2025 17:39
+199,062,799 #PYUSD (199,038,157 USD)
+transferred from unknown wallet to #Cumberland
+26-Sept-2025 17:35
+199,062,799 #PYUSD (199,086,632 USD)
+minted at unknown wallet
+26-Sept-2025 17:10
+1,146 #BTC (125,341,002 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 17:10
+2,300 #BTC (251,383,912 USD)
+transferred from #Cryptocom to unknown wallet
+26-Sept-2025 17:10
+500 #BTC (54,648,720 USD)
+transferred from Bitwise Etf to #Coinbase
+26-Sept-2025 15:55
+23,200,000 #XRP (62,769,463 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 15:51
+1,093 #BTC (119,205,852 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 15:25
+23,200,000 #XRP (63,211,376 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 15:25
+2,000 #BTC (217,967,031 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 15:05
+150,000,000 #USDT (150,090,750 USD)
+transferred from Tether Treasury to #Bitfinex
+26-Sept-2025 14:55
+150,000,000 #USDT (150,184,875 USD)
+transferred from #Aave to unknown wallet
+26-Sept-2025 14:45
+100,000 #ETH (394,112,025 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 14:01
+100,000 #ETH (393,530,148 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 13:52
+690 #BTC (75,496,786 USD)
+transferred from #Antpool to Coinbase Institutional
+26-Sept-2025 13:51
+100,000 #ETH (393,962,968 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 13:50
+706 #BTC (77,243,119 USD)
+transferred from unknown wallet to #Antpool
+26-Sept-2025 13:49
+271,675 #SOL (53,405,327 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 12:54
+22,700,000 #XRP (61,942,294 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 12:22
+300,000,000 #USDT (300,362,250 USD)
+transferred from #Aave to #Htx
+26-Sept-2025 11:33
+500,000,000 #USDT (500,634,999 USD)
+transferred from #Aave to #Htx
+26-Sept-2025 09:36
+1,015 #BTC (111,295,884 USD)
+transferred from #Ceffu to #Binance
+26-Sept-2025 09:33
+60,000,000 #USDC (59,964,210 USD)
+burned at USDC Treasury
+26-Sept-2025 09:19
+16,364 #ETH (64,465,493 USD)
+transferred from unknown wallet to #Binance
+26-Sept-2025 09:16
+55,000,000 #USDC (54,969,887 USD)
+burned at USDC Treasury
+26-Sept-2025 08:59
+17,000 #ETH (66,917,267 USD)
+transferred from #Ceffu to unknown wallet
+26-Sept-2025 07:28
+637 #BTC (69,918,616 USD)
+transferred from #Kraken to #Bitfinex
+26-Sept-2025 05:35
+1,000 #BTC (109,298,067 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 04:23
+479 #BTC (52,474,632 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 02:42
+551 #BTC (60,466,485 USD)
+transferred from unknown wallet to #Kraken
+26-Sept-2025 02:31
+967 #BTC (106,122,744 USD)
+transferred from #Antpool to unknown wallet
+26-Sept-2025 02:17
+1,037 #BTC (113,798,540 USD)
+transferred from unknown wallet to #Antpool
+26-Sept-2025 01:58
+480 #BTC (52,628,920 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 01:31
+577 #BTC (63,111,640 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 01:13
+250,000,000 #USDC (249,875,000 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 01:05
+250,030,983 #USDC (249,956,974 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 00:43
+250,030,983 #USDC (249,931,596 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 00:42
+250,030,983 #USDC (249,931,596 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 00:29
+650 #BTC (71,123,717 USD)
+transferred from unknown wallet to #Kraken
+25-Sept-2025 23:57
+638 #BTC (69,790,653 USD)
+transferred from unknown wallet to #Kraken
+25-Sept-2025 23:15
+250,000,000 #USDC (249,926,125 USD)
+minted at USDC Treasury
+25-Sept-2025 23:14
+250,000,000 #USDC (249,900,537 USD)
+minted at USDC Treasury
+25-Sept-2025 22:03
+250,000,000 #USDC (249,897,250 USD)
+minted at USDC Treasury
+25-Sept-2025 21:58
+36,165 #ETH (140,535,939 USD)
+transferred from unknown wallet to unknown wallet
+25-Sept-2025 21:52
+500 #BTC (54,538,577 USD)
+transferred from #Okex to unknown wallet
+25-Sept-2025 21:52
+2,385 #BTC (260,226,459 USD)
+transferred from #Kraken to unknown wallet
+25-Sept-2025 21:41
+14,063 #ETH (54,625,231 USD)
+transferred from #Okex to unknown wallet
+25-Sept-2025 21:11
+2,000 #BTC (218,531,138 USD)
+transferred from #Kraken to unknown wallet
+25-Sept-2025 21:11
+493 #BTC (53,890,341 USD)
+transferred from unknown wallet to Galaxy Digital
+25-Sept-2025 21:10
+2,297,942 #LINK (46,836,195 USD)
+transferred from unknown wallet to #Coinbase
+25-Sept-2025 20:54
+2,720 #BTC (297,837,546 USD)
+transferred from #Kraken to unknown wallet
+25-Sept-2025 20:47
+2,500 #BTC (273,712,147 USD)
+transferred from #Kraken to unknown wallet
+25-Sept-2025 20:15
+3,845 #BTC (422,113,872 USD)
+transferred from unknown wallet to unknown wallet
+25-Sept-2025 19:15
+1,000 #BTC (109,144,649 USD)
+transferred from unknown wallet to unknown wallet
+25-Sept-2025 18:49
+20,852 #ETH (80,588,775 USD)
+transferred from #Falconx to unknown wallet
+25-Sept-2025 18:37
+20,852 #ETH (80,850,768 USD)
+transferred from unknown wallet to #Falconx
+25-Sept-2025 18:10
+75,000,000 #USDC (74,975,775 USD)
+burned at USDC Treasury
+25-Sept-2025 17:53
+295,795 #SOL (58,948,001 USD)
+transferred from unknown wallet to #Binance
+Maximum number of alerts reached. Adjust filters or time range to view older alerts.
+About Whale Alert
+The most trustworthy independent blockchain analytics company in the ecosystem. Founded in
+2018 and followed by millions of blockchain enthusiasts looking for valuable actionable
+data.
+2025
+Whale Alert
+Terms Conditions
+Privacy Policy
+Press
+Roadmap
+Whale Limits
+FAQ
+Pricing
+API Documentation
+Research
+Contact Us
+Pricing
+Alerts Analytics
+Dashboard for Traders
+US$29.95
+/month
+Try for FREE for days!
+Create Custom Alerts*
+In-Browser Alert Notifications
+iOS/Android Alert Notifications
+All Coin Analytics Metrics
+Stablecoin Mint/Burn Analytics
+Live AI-Powered News Ticker
+Historical Live Coin Prices
+Up to 1,000 alerts per day (100 per filter)
+7-Day Free Trial
+Priority Alerts
+API for Businesses
+Contact Us
+Gain access to critical crypto transaction alerts before anyone else with Whale
+Alert’s Enterprise Priority Alerts API. Faster, more secure and
+tailored for high-stakes scenarios like large transfers, mints/burns,
+and black swan events.
+Explore Priority Alerts
+TRUSTED BY
+Contact Us
+If you have any questions, want to submit an article or would like to reach out to us about any related topics, please feel free to send us message using the contact form below.
+Select subject
+General Inquiry
+Technical Support
+Pricing and Plans
+API Access
+Bug Report
+Feature Request
+Partnership Opportunities
+Media and Press
+Other
+Send
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+Home
+Alerts
+Analytics
+Login
+Sign Up
+Alert
+Name
+Color
+<i class="mdi mdi-circle-off-outline alert-color-0"></i><i class="mdi mdi-circle alert-color-1"></i><i class="mdi mdi-circle alert-color-2"></i><i class="mdi mdi-circle alert-color-3"></i><i class="mdi mdi-circle alert-color-4"></i><i class="mdi mdi-circle alert-color-5"></i><i class="mdi mdi-circle alert-color-6"></i><i class="mdi mdi-circle alert-color-7"></i><i class="mdi mdi-circle alert-color-8"></i><i class="mdi mdi-circle alert-color-9"></i><i class="mdi mdi-circle alert-color-10"></i>
+Blockchain(s)
+AllBitcoinEthereumDogecoinTronBitcoin CashLitecoinAlgorandPolygonSolanaRippleCardano
+Coin(s)
+Alert Type(s)
+All
+Transfer
+Mint
+Burn
+Lock/Freeze
+Unlock/Unfreeze
+Dormant Activation
+High Fee
+×All
+Max filters: 10 Max alerts per filter per day: 100
+Minimum Transaction Value
+1,000,000 USD
+2,500,000 USD
+5,000,000 USD
+10,000,000 USD
+25,000,000 USD
+50,000,000 USD
+100,000,000 USD
+250,000,000 USD
+500,000,000 USD
+1,000,000,000 USD
+2,500,000,000 USD
+5,000,000,000 USD
+10,000,000,000 USD
+1,000,000 USD
+Minimum Dormant Age
+8+ Years
+9+ Years
+10+ Years
+11+ Years
+12+ Years
+13+ Years
+14+ Years
+15+ Years
+16+ Years
+17+ Years
+18+ Years
+19+ Years
+20+ Years
+10+ Years
+Minimum Fee Value
+1,000 USD
+2,500 USD
+5,000 USD
+10,000 USD
+25,000 USD
+50,000 USD
+100,000 USD
+250,000 USD
+500,000 USD
+1,000,000 USD
+1,000 USD
+Official Whale Alerts Only
+Close
+Delete
+Save changes
+Add whale-alert.io to your Home Screen to enable notifications:
+Open whale-alert.io in Safari and tap the Share icon.
+Select Add to Home Screen.
+Open the newly added app icon to get full notifications support.
+Continue
+TodayYesterdayLast DaysLast 30 DaysThis MonthLast MonthCustom RangeCancelApply
+============================================================

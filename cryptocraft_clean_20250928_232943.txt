@@ -1,0 +1,51 @@
+Multi-page scrape + API data collection
+Pages scraped: 1
+API endpoints: 0
+Scraped: 2025-09-28 23:29:43
+Total length: 8586 characters
+============================================================
+
+=== PAGE: https://www.cryptocraft.com/ ===
+TITLE: Crypto Craft Crypto markets for the smart money.
+============================================================
+Crypto Craft Crypto markets for the smart money. Home Forums News Calendar Coins Market LoginCreate AccountUser/Email:Password:
+11:29pm
+Menu Forums
+News
+Calendar
+Coins
+Market
+Login
+Create Account
+11:29pm
+Traders Online
+420
+Page Layout Crypto Trader Traders Online
+420
+Page Layout Crypto Trader Scanner About Live (temporarily disabled) Scanner Settings
+Block Name: Rows Displayed: 12345678
+Metrics
+Columns Displayed: 345678
+Instruments
+Set Alerts
+Bid
+Chart: Last hr
+Net Chg: hr
+Chg: hr
+BTC/USD ETH/USD DOGE/USD BCH/USD LTC/USD XMR/USD ETC/USD ZEC/USD
+Sep 28, 2025 Sep 29, 2025 Up Next Search Events Filter Date 11:29pm Impact Detail Actual Forecast Previous Graph
+11:29pm Actual
+Sun Sep 28
+Sun Sep 28
+Mon Sep 29
+Mon Sep 29 3:00pm US Pending Home Sales m/m 0.2% -0.4%
+6:00pm US SEC Chair Atkins Speaks
+8:25pm US SEC Commissioner Uyeda Speaks
+10:20pm US SEC Commissioner Peirce Speaks
+More News Latest Stories Traders’ Weekly Playbook: Trading Through an Impending US Government Shutdown From pepperstone.com|29 min ago Welcome to the Age of Perennial Crisis From dlacalle.com|1 hr 29 min ago Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|2 hr 59 min ago The hidden force behind Bitcoin and Ether price swings: Options expiry From cointelegraph.com|4 hr ago Here’s What Happens When the US Government Shuts Down From msn.com|8 hr ago|5 comments US: Inflation is heating up From robinjbrooks.substack.com|18 hr ago|4 comments ETH Liquidity Heatmap Hints Retest to $3,700-$3,800 Range From fxdailyreport.com|22 hr ago Higher stakes, Fed 'flying blind,' and 'data desert': Why this government shutdown would... From finance.yahoo.com|27 hr ago Kraken in Strategic Investor Talks at $20 Billion Valuation From msn.com|32 hr ago Vanguard May Finally Allow Access to Bitcoin and Ethereum ETFs From financefeeds.com|38 hr ago The Week in Crypto Deleveraging, Not Derailing From medium.com|42 hr ago Crypto Enters the “Era of Substance” From marketsmedia.com|46 hr ago More News Hot Stories Here’s What Happens When the US Government Shuts Down From msn.com|8 hr ago|5 comments US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly rewriting those plans in advance of the end of the fiscal year next Tuesday, making potential shutdown even more unpredictable and potentially disruptive than any other in memory. ...US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly rewriting those plans in advance of the end of the fiscal year next Tuesday, making potential shutdown even more unpredictable and potentially disruptive than any other in memory. ... Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|2 hr 59 min ago United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and offered incentives, which pulled demand forward and tightened supply to 6.8 months. Existing home sales, by contrast, stayed flat close to 4.00 million, with supply at 4.6 months, ...United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and offered incentives, which pulled demand forward and tightened supply to 6.8 months. Existing home sales, by contrast, stayed flat close to 4.00 million, with supply at 4.6 months, ... Welcome to the Age of Perennial Crisis From dlacalle.com|1 hr 29 min ago The world is not going to see another crisis like the ones experienced in 2008 or 2011. No central bank or government is going to accept it. You may think the prospect is good news. However, the flip side is that this means secular stagnation and perennial crisis for wage earners and the middle class. There is slow-motion eternal crisis that leaves the ...The world is not going to see another crisis like the ones experienced in 2008 or 2011. No central bank or government is going to accept it. You may think the prospect is good news. However, the flip side is that this means secular stagnation and perennial crisis for wage earners and the middle class. There is slow-motion eternal crisis that leaves the ... More Mineable Coins Top-5 Market Caps Top-5 Market Caps Settings Live (temporarily disabled) Coins Options
+Top-5 Market Caps Top-8 Market Caps Top-10 Market Caps Top-12 Market Caps Custom Selection $2B+ Market Caps $1B+ Market Caps $500M+ Market Caps $200M+ Market Caps Please note: The Coins product only includes mineable* cryptocurrencies. See the 'About Coins' sidebar for more information.
+Coins Settings
+Show Exchange Bids: Show Charts: Show 'All' row: Graph/Chart Colors: Default Settings
+Forums Latest Replies Merka replied 24 min ago nice market just opened and you already did 2.32%. that's good start for the week. cheers Majors Active Trading mr.brown replied 50 min ago My best trade is next trade. new week ahead Majors Active Trading GhosTraderGT replied hr 37 min ago Hello Gents Can you do some magic on this indi? Want the calculations changed from TMA to RSI as Tma is slow to respond to price. Indi calculation is based on TMA but want it ... will code your EAs and Indicators for no charge BestTraderEv replied hr 51 min ago|1 like do not answer private requests for coding. will code your EAs and Indicators for no charge genuine007 replied hr ago No No Not that way, meaning by Instagram content like REELS, VIDEOS etc Prop Firm Hub Trader191 replied 10 hr ago do, have Meta stocks and in many ETF Prop Firm Hub jeanlouie replied 12 hr ago This has the alerts on completed engulfing/inside bars, but the lines stay. The inside bar setting would be engulfing to the right, of length 1. ... will code your EAs and Indicators for no charge iardavan replied 14 hr ago If possible, please check my private message. will code your EAs and Indicators for no charge oo7rai replied 18 hr ago yes, it is not working also dumped it already. Thank you. will code your EAs and Indicators for no charge More Sessions
+Forums Most Replied 7D will code your EAs and Indicators for no charge leads|Platform Tech|79,533 replies GhosTraderGT replied hr 37 min ago Hello Gents Can you do some magic on this indi? Want the calculations changed from TMA to RSI ... Prop Firm Hub leads|Prop Firm Discussion|51,269 replies genuine007 replied hr ago No No Not that way, meaning by Instagram content like REELS, VIDEOS etc Crypto Day Trading Journal 2.0 leads|Trading Journals|284 replies xausdfx replied 24 hr ago Going well so far, send it Majors Active Trading leads|Interactive Trading|526 replies Merka replied 25 min ago nice market just opened and you already did 2.32%. that's good start for the week. cheers Justin's Playground leads|Trading Journals|3,745 replies Aussi replied 23 hr ago trade bitcon on weekends one of the key things you need is reliable indicator to show ... Bitcoin Trading leads|Interactive Trading|5 replies vankiepsauff replied Sep 26, 2025 closed all long at 109000 Aussi's crypto weekends leads|Interactive Trading|1,596 replies Aussi replied 23 hr ago {image} Indicator Bank leads|Platform Tech|2,080 replies ThaoAnh replied 27 hr ago {image} {file} {file} {file} {file} {file} {file} Bitcoin (BTCUSD) leads|Interactive Trading|1,674 replies rickdaniel replied Sep 25, 2025 Sounds good, trading BTCUSD can be really volatile, so timing entries and risk management ... Do you use stoploss? leads|Rookie Talk|695 replies Agra1 replied Sep 25, 2025 Fx4money, you said you don't use stop loss for your gold investor system. Given the risk of ... XRP and XLM leads|Interactive Trading|1 reply RianAtheer replied Sep 22, 2025 Interesting approach layering in with small lots and holding long-term on XRP XLM could pay ... Trend momentum leads|Trading Discussion|9 replies since80808 replied 30 hr ago Which method? Any system in this thread? More Top of Page Default Page About CC Mission Products User Guide Blog Contact CC Products Forums Calendar News Coins Market CC Website Homepage Search Traders Report Problem Follow CC CC Sister Sites: Crypto Craft® is brand of Fair Economy, Inc. Terms of Service ©2025
+============================================================
