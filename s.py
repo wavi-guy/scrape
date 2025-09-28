@@ -63,8 +63,8 @@ async def scrape_and_save():
                     // Get HTML content first to process table rows
                     let html = document.body.innerHTML || '';
                     
-                    // Add newlines after </tr> tags
-                    html = html.replace(/<\/tr>/gi, '</tr>\n');
+                    // Add newlines after </tr> tags - escape the regex properly
+                    html = html.replace(/<\\/tr>/gi, '</tr>\\n');
                     
                     // Create a temporary div to extract text from modified HTML
                     let tempDiv = document.createElement('div');
