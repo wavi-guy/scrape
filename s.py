@@ -42,7 +42,8 @@ async def scrape_and_save():
         try:
             urls = [
                 "https://www.cryptocraft.com/",
-                "https://www.cryptocraft.com/market/btcusd"
+                "https://www.cryptocraft.com/market/btcusd",
+                "https://www.cryptocraft.com/news"
             ]
             
             all_content = []
