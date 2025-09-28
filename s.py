@@ -89,33 +89,41 @@ async def scrape_and_save():
             content = re.sub(r'\{[^}]*"[^"]*"[^}]*\}', '', content)
             content = re.sub(r'\[[^\]]*\]', '', content)
             
-            # Clean whitespace
-            content = re.sub(r'\s+', ' ', content)
-            content = content.strip()
+            # Preserve line breaks but clean up excessive whitespace
+            # Split by line breaks to preserve them
+            lines = content.split('\n')
+            cleaned_lines = []
             
-            # Filter out JavaScript lines
-            lines = content.split()
-            cleaned_words = []
-            
-            for word in lines:
-                word = word.strip()
-                if word and len(word) > 1:
-                    # Skip obvious JavaScript keywords and patterns
-                    skip_word = False
-                    js_patterns = ['window.', 'function', 'calendarComponentStates', 
-                                 'true', 'false', 'null']
+            for line in lines:
+                # Clean excessive spaces within each line but preserve the line structure
+                line = re.sub(r'[ \t]+', ' ', line.strip())
+                
+                if line:  # Only keep non-empty lines
+                    # Filter out JavaScript patterns from the line
+                    words = line.split()
+                    cleaned_words = []
                     
-                    for pattern in js_patterns:
-                        if pattern in word:
-                            skip_word = True
-                            break
+                    for word in words:
+                        if word and len(word) > 1:
+                            # Skip obvious JavaScript keywords and patterns
+                            skip_word = False
+                            js_patterns = ['window.', 'function', 'calendarComponentStates', 
+                                         'true', 'false', 'null']
+                            
+                            for pattern in js_patterns:
+                                if pattern in word:
+                                    skip_word = True
+                                    break
+                            
+                            # Skip words that are mostly punctuation
+                            if not skip_word and not re.match(r'^[{}[\],:"\\]*$', word):
+                                cleaned_words.append(word)
                     
-                    # Skip words that are mostly punctuation
-                    if not skip_word and not re.match(r'^[{}[\],:"\\]*$', word):
-                        cleaned_words.append(word)
+                    if cleaned_words:  # Only add line if it has content
+                        cleaned_lines.append(' '.join(cleaned_words))
             
-            # Rejoin words with spaces and create logical line breaks
-            content = ' '.join(cleaned_words)
+            # Rejoin lines with CR+LF to preserve line breaks
+            content = '\r\n'.join(cleaned_lines)
             
             print(f"Content length: {len(content)} characters")
             
