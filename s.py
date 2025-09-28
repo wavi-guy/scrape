@@ -60,8 +60,16 @@ async def scrape_and_save():
                     // Remove scripts, styles, and hidden elements
                     document.querySelectorAll('script, style, noscript').forEach(el => el.remove());
                     
-                    // Get all text content
-                    let text = document.body.textContent || document.body.innerText || '';
+                    // Get HTML content first to process table rows
+                    let html = document.body.innerHTML || '';
+                    
+                    // Add newlines after </tr> tags
+                    html = html.replace(/<\/tr>/gi, '</tr>\n');
+                    
+                    // Create a temporary div to extract text from modified HTML
+                    let tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = html;
+                    let text = tempDiv.textContent || tempDiv.innerText || '';
                     
                     return text;
                 }
