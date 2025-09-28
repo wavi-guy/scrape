@@ -40,40 +40,67 @@ async def scrape_and_save():
         page = await context.new_page()
         
         try:
-            url = "https://www.cryptocraft.com/market/btcusd"
-            print(f"Accessing: {url}")
-            print("Attempting to bypass Cloudflare...")
+            urls = [
+                "https://www.cryptocraft.com/",
+                "https://www.cryptocraft.com/market/btcusd"
+            ]
             
-            await page.goto(url, wait_until='domcontentloaded', timeout=60000)
+            all_content = []
             
-            print("Waiting for page to load completely...")
-            await page.wait_for_timeout(8000)
-            
-            title = await page.title()
-            print(f"Page title: {title}")
-            
-            # Extract content with proper line breaks
-            print("Extracting and formatting content...")
-            
-            content = await page.evaluate('''
-                () => {
-                    // Remove scripts, styles, and hidden elements
-                    document.querySelectorAll('script, style, noscript').forEach(el => el.remove());
-                    
-                    // Get HTML content first to process table rows
-                    let html = document.body.innerHTML || '';
-                    
-                    // Add CR+LF after </tr> tags - escape the regex properly
-                    html = html.replace(/<\\/tr>/gi, '</tr>\\r\\n');
-                    
-                    // Create a temporary div to extract text from modified HTML
-                    let tempDiv = document.createElement('div');
-                    tempDiv.innerHTML = html;
-                    let text = tempDiv.textContent || tempDiv.innerText || '';
-                    
-                    return text;
+            for url in urls:
+                print(f"Accessing: {url}")
+                print("Attempting to bypass Cloudflare...")
+                
+                await page.goto(url, wait_until='domcontentloaded', timeout=60000)
+                
+                print("Waiting for page to load completely...")
+                await page.wait_for_timeout(8000)
+                
+                title = await page.title()
+                print(f"Page title: {title}")
+                
+                # Extract content with proper line breaks
+                print("Extracting and formatting content...")
+                
+                content = await page.evaluate('''
+                    () => {
+                        // Remove scripts, styles, and hidden elements
+                        document.querySelectorAll('script, style, noscript').forEach(el => el.remove());
+                        
+                        // Get HTML content first to process table rows
+                        let html = document.body.innerHTML || '';
+                        
+                        // Add CR+LF after </tr> tags - escape the regex properly
+                        html = html.replace(/<\\/tr>/gi, '</tr>\\r\\n');
+                        
+                        // Create a temporary div to extract text from modified HTML
+                        let tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = html;
+                        let text = tempDiv.textContent || tempDiv.innerText || '';
+                        
+                        return text;
+                    }
+                ''')
+                
+                # Store content with URL identifier
+                page_info = {
+                    'url': url,
+                    'title': title,
+                    'content': content
                 }
-            ''')
+                all_content.append(page_info)
+                print(f"Content extracted from {url} - Length: {len(content)} characters")
+            
+            # Combine all content
+            combined_content = ""
+            for page in all_content:
+                combined_content += f"=== PAGE: {page['url']} ===\r\n"
+                combined_content += f"TITLE: {page['title']}\r\n"
+                combined_content += "=" * 60 + "\r\n\r\n"
+                combined_content += page['content']
+                combined_content += "\r\n\r\n" + "=" * 60 + "\r\n\r\n"
+            
+            content = combined_content
             
             if not content or len(content) < 100:
                 print("Minimal content found, might be stuck on verification")
@@ -133,7 +160,7 @@ async def scrape_and_save():
                 debug_filename = f"verification_debug_{timestamp}.txt"
                 
                 with open(debug_filename, 'w', encoding='utf-8') as f:
-                    f.write(f"Debug content from: {url}\n")
+                    f.write(f"Debug content from multiple pages\n")
                     f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                     f.write("=" * 50 + "\n\n")
                     f.write(content)
@@ -152,10 +179,10 @@ async def scrape_and_save():
                 filename = f"cryptocraft_clean_{timestamp}.txt"
                 
                 with open(filename, 'w', encoding='utf-8') as f:
-                    f.write(f"Website: {url}\n")
-                    f.write(f"Title: {title}\n")
+                    f.write(f"Multi-page scrape from Cryptocraft.com\n")
+                    f.write(f"Pages scraped: {len(all_content)}\n")
                     f.write(f"Scraped: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"Length: {len(content)} characters\n")
+                    f.write(f"Total length: {len(content)} characters\n")
                     f.write("=" * 60 + "\n\n")
                     f.write(content)
                 
@@ -169,7 +196,7 @@ async def scrape_and_save():
             
             with open(error_filename, 'w', encoding='utf-8') as f:
                 f.write(f"ERROR REPORT\n")
-                f.write(f"Website: {url}\n")
+                f.write(f"Multi-page scraping attempt\n")
                 f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                 f.write(f"Error: {str(e)}\n")
             
