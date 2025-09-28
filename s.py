@@ -14,7 +14,7 @@ async def fetch_fear_greed_api():
     Fetch Fear and Greed historical data from CoinMarketCap API
     Note: Requires CoinMarketCap Pro API key
     """
-    api_key = "0ec32b61-d462-4be5-92f5-85d4f14ec474"  # User's actual API key
+    api_key = "0ec32b61-d462-4be5-92f5-85d4f14ec474"  # replace with your own
     if api_key == "YOUR_COINMARKETCAP_API_KEY":
         return {
             'error': 'API key not configured',
@@ -48,26 +48,86 @@ async def fetch_fear_greed_api():
 # ==============================
 def parse_whale_alerts(scraped_content: str):
     """
-    Extract whale alerts (BTC only) from Whale Alert HTML/text scrape.
-    Returns a list of dicts.
+    Extract whale alerts for multiple assets and event types
+    from Whale Alert HTML/text scrape.
+    Returns a list of dicts with structured info.
     """
     alerts = []
-    # Example: "2,500 #BTC (274,372,375 USD) transferred from #Kraken to unknown wallet"
-    pattern = re.compile(
-        r'(\d[\d,]*)\s+#BTC.*\(([\d,]+)\s+USD\).*transferred from (.*?) to (.*)',
+
+    # --- Patterns ---
+    transfer_pattern = re.compile(
+        r'(\d[\d,]*)\s+#([A-Z]+).*?\(([\d,]+)\s+USD\).*transferred from (.*?) to (.*)',
+        re.IGNORECASE
+    )
+    mint_pattern = re.compile(
+        r'(\d[\d,]*)\s+#([A-Z]+).*?\(([\d,]+)\s+USD\).*minted at (.*)',
+        re.IGNORECASE
+    )
+    burn_pattern = re.compile(
+        r'(\d[\d,]*)\s+#([A-Z]+).*?\(([\d,]+)\s+USD\).*burned at (.*)',
+        re.IGNORECASE
+    )
+    dormant_pattern = re.compile(
+        r'(\d[\d,]*)\s+#([A-Z]+).*?\(([\d,]+)\s+USD\).*activated after ([\d.]+)\s+years',
         re.IGNORECASE
     )
 
-    for match in pattern.finditer(scraped_content):
+    # --- Match transfers ---
+    for match in transfer_pattern.finditer(scraped_content):
         amount = int(match.group(1).replace(',', ''))
-        usd_value = int(match.group(2).replace(',', ''))
-        source = match.group(3).strip()
-        dest = match.group(4).strip()
+        asset = match.group(2).upper()
+        usd_value = int(match.group(3).replace(',', ''))
+        source = match.group(4).strip()
+        dest = match.group(5).strip()
         alerts.append({
-            "amount_btc": amount,
+            "event": "transfer",
+            "asset": asset,
+            "amount": amount,
             "usd_value": usd_value,
             "from": source,
             "to": dest
+        })
+
+    # --- Match mints ---
+    for match in mint_pattern.finditer(scraped_content):
+        amount = int(match.group(1).replace(',', ''))
+        asset = match.group(2).upper()
+        usd_value = int(match.group(3).replace(',', ''))
+        location = match.group(4).strip()
+        alerts.append({
+            "event": "mint",
+            "asset": asset,
+            "amount": amount,
+            "usd_value": usd_value,
+            "location": location
+        })
+
+    # --- Match burns ---
+    for match in burn_pattern.finditer(scraped_content):
+        amount = int(match.group(1).replace(',', ''))
+        asset = match.group(2).upper()
+        usd_value = int(match.group(3).replace(',', ''))
+        location = match.group(4).strip()
+        alerts.append({
+            "event": "burn",
+            "asset": asset,
+            "amount": amount,
+            "usd_value": usd_value,
+            "location": location
+        })
+
+    # --- Match dormant activations ---
+    for match in dormant_pattern.finditer(scraped_content):
+        amount = int(match.group(1).replace(',', ''))
+        asset = match.group(2).upper()
+        usd_value = int(match.group(3).replace(',', ''))
+        age_years = float(match.group(4))
+        alerts.append({
+            "event": "dormant_activation",
+            "asset": asset,
+            "amount": amount,
+            "usd_value": usd_value,
+            "age_years": age_years
         })
 
     return alerts
@@ -183,7 +243,7 @@ async def scrape_and_save():
                     json.dump(whale_data, wf, indent=2)
                 print(f"Parsed Whale Alerts saved to {whale_file}")
             else:
-                print("No Whale BTC transactions found to parse.")
+                print("No Whale transactions found to parse.")
     else:
         print("Nothing to save.")
 
