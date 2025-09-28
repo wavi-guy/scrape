@@ -1,143 +1,173 @@
 import sys
 import asyncio
 from playwright.async_api import async_playwright
-from datetime import datetime
+from datetime import datetime, timedelta
 import re
 import aiohttp
 import json
 
-# ==============================
-# API: Fear & Greed Index
-# ==============================
+# ===============================
+# Fear & Greed API (ISO output)
+# ===============================
 async def fetch_fear_greed_api():
     """
-    Fetch Fear and Greed historical data from CoinMarketCap API
-    Note: Requires CoinMarketCap Pro API key
+    Fetch Fear & Greed historical data (CoinMarketCap Pro).
+    Returns a list of dicts with ISO timestamps.
     """
-    api_key = "0ec32b61-d462-4be5-92f5-85d4f14ec474"  # replace with your own
-    if api_key == "YOUR_COINMARKETCAP_API_KEY":
-        return {
-            'error': 'API key not configured',
-            'message': 'Please set your CoinMarketCap Pro API key to fetch historical data',
-            'endpoint': 'https://pro-api.coinmarketcap.com/v3/fear-and-greed/historical'
-        }
+    api_key = "0ec32b61-d462-4be5-92f5-85d4f14ec474"  # <-- your key
     url = "https://pro-api.coinmarketcap.com/v3/fear-and-greed/historical"
     headers = {
-        'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': api_key,
+        "Accepts": "application/json",
+        "X-CMC_PRO_API_KEY": api_key,
     }
     try:
         async with aiohttp.ClientSession() as session:
-            async with session.get(url, headers=headers) as response:
-                if response.status == 200:
-                    data = await response.json()
-                    return data
-                else:
-                    return {
-                        'error': f'API request failed with status {response.status}',
-                        'response': await response.text()
-                    }
+            async with session.get(url, headers=headers) as resp:
+                if resp.status != 200:
+                    txt = await resp.text()
+                    print(f"[Fear&Greed] HTTP {resp.status}: {txt[:200]}")
+                    return []
+                raw = await resp.json()
+                data = raw.get("data", [])
+                out = []
+                for d in data:
+                    try:
+                        ts = int(d["timestamp"])
+                        iso = datetime.utcfromtimestamp(ts).strftime("%Y-%m-%dT%H:%M:%SZ")
+                        out.append({
+                            "timestamp": iso,
+                            "value": d.get("value"),
+                            "value_classification": d.get("value_classification")
+                        })
+                    except Exception:
+                        continue
+                return out
     except Exception as e:
-        return {
-            'error': 'API request failed',
-            'exception': str(e)
-        }
+        print(f"[Fear&Greed] Error: {e}")
+        return []
 
-# ==============================
-# Parse Whale Alert Text Content
-# ==============================
-def parse_whale_alerts(scraped_content: str):
+# ===============================
+# Whale Alert text parser (ISO)
+# ===============================
+def parse_whale_alerts(scraped_text: str):
     """
-    Extract whale alerts for multiple assets and event types
-    from Whale Alert HTML/text scrape.
-    Returns a list of dicts with structured info.
+    Parse the visible text of whale-alert.io/alerts.html into structured events.
+    Expects the same plain text format your scraper outputs.
     """
     alerts = []
+    if not scraped_text:
+        return alerts
 
-    # --- Patterns ---
-    transfer_pattern = re.compile(
-        r'(\d[\d,]*)\s+#([A-Z]+).*?\(([\d,]+)\s+USD\).*transferred from (.*?) to (.*)',
-        re.IGNORECASE
-    )
-    mint_pattern = re.compile(
-        r'(\d[\d,]*)\s+#([A-Z]+).*?\(([\d,]+)\s+USD\).*minted at (.*)',
-        re.IGNORECASE
-    )
-    burn_pattern = re.compile(
-        r'(\d[\d,]*)\s+#([A-Z]+).*?\(([\d,]+)\s+USD\).*burned at (.*)',
-        re.IGNORECASE
-    )
-    dormant_pattern = re.compile(
-        r'(\d[\d,]*)\s+#([A-Z]+).*?\(([\d,]+)\s+USD\).*activated after ([\d.]+)\s+years',
-        re.IGNORECASE
-    )
+    lines = [ln.strip() for ln in scraped_text.splitlines() if ln.strip()]
+    months = {
+        "Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
+        "Jul": 7, "Aug": 8, "Sep": 9, "Sept": 9, "Oct": 10, "Nov": 11, "Dec": 12
+    }
 
-    # --- Match transfers ---
-    for match in transfer_pattern.finditer(scraped_content):
-        amount = int(match.group(1).replace(',', ''))
-        asset = match.group(2).upper()
-        usd_value = int(match.group(3).replace(',', ''))
-        source = match.group(4).strip()
-        dest = match.group(5).strip()
-        alerts.append({
-            "event": "transfer",
-            "asset": asset,
-            "amount": amount,
-            "usd_value": usd_value,
-            "from": source,
-            "to": dest
-        })
+    i = 0
+    while i < len(lines) - 2:
+        line = lines[i]
 
-    # --- Match mints ---
-    for match in mint_pattern.finditer(scraped_content):
-        amount = int(match.group(1).replace(',', ''))
-        asset = match.group(2).upper()
-        usd_value = int(match.group(3).replace(',', ''))
-        location = match.group(4).strip()
-        alerts.append({
-            "event": "mint",
-            "asset": asset,
-            "amount": amount,
-            "usd_value": usd_value,
-            "location": location
-        })
+        # Absolute timestamp: "27-Sept-2025 19:59"
+        m_abs = re.match(r"(\d{1,2})-([A-Za-z]+)-(\d{4}) (\d{2}):(\d{2})", line)
+        if m_abs:
+            try:
+                day = int(m_abs.group(1))
+                mon_str = m_abs.group(2)
+                year = int(m_abs.group(3))
+                hour = int(m_abs.group(4))
+                minute = int(m_abs.group(5))
+                month = months.get(mon_str[:3], 1)
+                dt = datetime(year, month, day, hour, minute)
+                ts_iso = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+            except Exception:
+                ts_iso = None
 
-    # --- Match burns ---
-    for match in burn_pattern.finditer(scraped_content):
-        amount = int(match.group(1).replace(',', ''))
-        asset = match.group(2).upper()
-        usd_value = int(match.group(3).replace(',', ''))
-        location = match.group(4).strip()
-        alerts.append({
-            "event": "burn",
-            "asset": asset,
-            "amount": amount,
-            "usd_value": usd_value,
-            "location": location
-        })
+            amount_line = lines[i+1] if i+1 < len(lines) else ""
+            desc_line = lines[i+2] if i+2 < len(lines) else ""
+            alerts.append(_parse_single_alert(amount_line, desc_line, ts_iso))
+            i += 3
+            continue
 
-    # --- Match dormant activations ---
-    for match in dormant_pattern.finditer(scraped_content):
-        amount = int(match.group(1).replace(',', ''))
-        asset = match.group(2).upper()
-        usd_value = int(match.group(3).replace(',', ''))
-        age_years = float(match.group(4))
-        alerts.append({
-            "event": "dormant_activation",
-            "asset": asset,
-            "amount": amount,
-            "usd_value": usd_value,
-            "age_years": age_years
-        })
+        # Relative timestamp: "45 mins ago", "3 hours ago"
+        m_rel = re.match(r"(\d+)\s+(mins?|hours?|days?) ago", line, re.IGNORECASE)
+        if m_rel:
+            qty = int(m_rel.group(1))
+            unit = m_rel.group(2).lower()
+            now = datetime.utcnow()
+            if "min" in unit:
+                dt = now - timedelta(minutes=qty)
+            elif "hour" in unit:
+                dt = now - timedelta(hours=qty)
+            elif "day" in unit:
+                dt = now - timedelta(days=qty)
+            else:
+                dt = now
+            ts_iso = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
 
+            amount_line = lines[i+1] if i+1 < len(lines) else ""
+            desc_line = lines[i+2] if i+2 < len(lines) else ""
+            alerts.append(_parse_single_alert(amount_line, desc_line, ts_iso))
+            i += 3
+            continue
+
+        i += 1
+
+    # Drop Nones or empties
+    alerts = [a for a in alerts if a.get("asset") or a.get("usd_value")]
     return alerts
 
-# ==============================
-# Main Scraper Function
-# ==============================
-async def scrape_and_save():
+def _parse_single_alert(amount_line: str, desc_line: str, timestamp_iso: str):
+    # Amount line example: "400 #BTC (44,322,294 USD)"
+    m = re.match(r"([\d,\.]+)\s+#([A-Z0-9]+)\s+\(([\d,\.]+)\s+USD\)", amount_line)
+    amount = float(m.group(1).replace(",", "")) if m else None
+    asset = m.group(2) if m else None
+    usd_value = float(m.group(3).replace(",", "")) if m else None
 
-    # Map short names to URLs/APIs
+    event = "transfer"
+    src = None
+    dst = None
+    extra = None
+
+    d = desc_line.lower()
+    if "transferred" in d:
+        event = "transfer"
+        md = re.match(r"transferred from (.+) to (.+)", desc_line, re.IGNORECASE)
+        if md:
+            src = md.group(1)
+            dst = md.group(2)
+    elif "minted" in d:
+        event = "mint"
+        md = re.match(r"minted at (.+)", desc_line, re.IGNORECASE)
+        if md:
+            dst = md.group(1)
+    elif "burned" in d:
+        event = "burn"
+        md = re.match(r"burned at (.+)", desc_line, re.IGNORECASE)
+        if md:
+            src = md.group(1)
+    elif "activated" in d:
+        event = "dormant_activation"
+        md = re.match(r".*after ([\d\.]+) years", desc_line, re.IGNORECASE)
+        if md:
+            extra = {"age_years": float(md.group(1))}
+
+    return {
+        "timestamp": timestamp_iso,
+        "event": event,
+        "asset": asset,
+        "amount": amount,
+        "usd_value": usd_value,
+        "from": src,
+        "to": dst,
+        "extra": extra
+    }
+
+# ===============================
+# Your original scraper + exports
+# ===============================
+async def scrape_and_save():
+    # ---- DO NOT TOUCH: scraping URLs / mapping ----
     site_map = {
         'cc_home': {
             'url': "https://www.cryptocraft.com/",
@@ -166,8 +196,9 @@ async def scrape_and_save():
             'func': fetch_fear_greed_api
         }
     }
+    # -----------------------------------------------
 
-    # Parse command line args
+    # Parse CLI args for enabled sites/APIs
     enabled_sites = set()
     enabled_apis = set()
     for arg in sys.argv[1:]:
@@ -179,41 +210,104 @@ async def scrape_and_save():
     if not enabled_sites and not enabled_apis:
         print("No sites or APIs selected. Usage:")
         print("  python s.py [cc_home] [cc_btc] [cc_news] [cmc_chart] [whale_alert] [fear_api]")
+        print("  Example: python s.py cc_home cc_btc whale_alert fear_api")
+        print("  Available:")
+        for k, v in site_map.items():
+            print(f"    {k}: {v['desc']}")
+        for k, v in api_map.items():
+            print(f"    {k}: {v['desc']}")
         return
 
+    # ================
+    # Scrape pages
+    # ================
     all_content = []
-    # Scrape selected sites
     if enabled_sites:
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
-            context = await browser.new_context()
+            browser = await p.chromium.launch(
+                headless=True,
+                args=[
+                    '--no-sandbox',
+                    '--disable-setuid-sandbox',
+                    '--disable-dev-shm-usage',
+                    '--disable-accelerated-2d-canvas',
+                    '--no-first-run',
+                    '--no-zygote',
+                    '--disable-gpu',
+                    '--disable-background-timer-throttling',
+                    '--disable-backgrounding-occluded-windows',
+                    '--disable-renderer-backgrounding'
+                ]
+            )
+            context = await browser.new_context(
+                user_agent='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                viewport={'width': 1920, 'height': 1080},
+                extra_http_headers={
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.9',
+                    'Accept-Encoding': 'gzip, deflate, br',
+                    'Connection': 'keep-alive',
+                    'Upgrade-Insecure-Requests': '1',
+                    'Sec-Fetch-Dest': 'document',
+                    'Sec-Fetch-Mode': 'navigate',
+                    'Sec-Fetch-Site': 'none',
+                    'Cache-Control': 'max-age=0'
+                }
+            )
             page = await context.new_page()
             try:
                 for key in enabled_sites:
                     url = site_map[key]['url']
                     print(f"Accessing: {url}")
+                    print("Attempting to bypass Cloudflare...")
                     await page.goto(url, wait_until='domcontentloaded', timeout=60000)
+                    print("Waiting for page to load completely...")
                     await page.wait_for_timeout(8000)
                     title = await page.title()
+                    print(f"Page title: {title}")
+                    print("Extracting and formatting content...")
                     content = await page.evaluate('''
                         () => {
                             document.querySelectorAll('script, style, noscript').forEach(el => el.remove());
-                            return document.body.innerText;
+                            let html = document.body.innerHTML || '';
+                            html = html.replace(/<\\/tr>/gi, '</tr>\\r\\n');
+                            let tempDiv = document.createElement('div');
+                            tempDiv.innerHTML = html;
+                            let text = tempDiv.textContent || tempDiv.innerText || '';
+                            return text;
                         }
                     ''')
-                    page_info = {'url': url, 'title': title, 'content': content}
+                    page_info = {
+                        'key': key,
+                        'url': url,
+                        'title': title,
+                        'content': content
+                    }
                     all_content.append(page_info)
                     print(f"Content extracted from {url} - Length: {len(content)} characters")
             finally:
+                print("Closing browser...")
                 await browser.close()
 
-    # Fetch APIs
+    # ==========================
+    # Fetch Fear & Greed (API)
+    # ==========================
     api_data = None
     if 'fear_api' in enabled_apis:
         print("Fetching Fear and Greed historical data from API...")
-        api_data = await api_map['fear_api']['func']()
+        # keep a copy for the text output (raw JSON) and structured form
+        fear_greed_list = await api_map['fear_api']['func']()
+        api_data = {
+            "data": fear_greed_list,
+            "status": {
+                "fetched_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "source": "CoinMarketCap Fear & Greed / v3"
+            }
+        }
 
-    # Combine scraped content
+    # ==========================
+    # Build cleaned text output
+    # ==========================
     scraped_content = ""
     for page in all_content:
         scraped_content += f"=== PAGE: {page['url']} ===\r\n"
@@ -222,35 +316,108 @@ async def scrape_and_save():
         scraped_content += page['content']
         scraped_content += "\r\n\r\n" + "=" * 60 + "\r\n\r\n"
 
-    # Save outputs
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    if scraped_content or api_data:
-        # Save text
-        filename = f"cryptocraft_clean_{timestamp}.txt"
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(scraped_content)
-            if api_data:
-                f.write("\n\n=== API DATA: Fear & Greed ===\n")
-                f.write(json.dumps(api_data, indent=2))
-        print(f"Scraped content saved to {filename}")
-
-        # If Whale Alerts scraped → parse & save JSON
-        if 'whale_alert' in enabled_sites:
-            whale_data = parse_whale_alerts(scraped_content)
-            if whale_data:
-                whale_file = f"whale_alerts_{timestamp}.json"
-                with open(whale_file, 'w', encoding='utf-8') as wf:
-                    json.dump(whale_data, wf, indent=2)
-                print(f"Parsed Whale Alerts saved to {whale_file}")
-            else:
-                print("No Whale transactions found to parse.")
+    # Clean visible text
+    if scraped_content:
+        print("Cleaning up scraped content...")
+        content = scraped_content
+        content = re.sub(r'window\.\w+\s*=\s*\{[^}]*\}', '', content)
+        content = re.sub(r'if\s*\([^)]*\)\s*\{[^}]*\}', '', content)
+        content = re.sub(r'\{[^}]*"[^"]*"[^}]*\}', '', content)
+        content = re.sub(r'\[[^\]]*\]', '', content)
+        lines = content.split('\n')
+        cleaned_lines = []
+        for line in lines:
+            line = re.sub(r'[ \t]+', ' ', line.strip())
+            if line:
+                words = line.split()
+                cleaned_words = []
+                for word in words:
+                    if word and len(word) > 1:
+                        skip = False
+                        for pattern in ['window.', 'function', 'calendarComponentStates', 'true', 'false', 'null']:
+                            if pattern in word:
+                                skip = True
+                                break
+                        if not skip and not re.match(r'^[{}[\],:"\\]*$', word):
+                            cleaned_words.append(word)
+                if cleaned_words:
+                    cleaned_lines.append(' '.join(cleaned_words))
+        cleaned_content = '\r\n'.join(cleaned_lines)
+        print(f"Scraped content length: {len(cleaned_content)} characters")
     else:
-        print("Nothing to save.")
+        cleaned_content = ''
 
-# ==============================
-# Run
-# ==============================
+    # ==========================================
+    # Append JSON sections to the text output
+    # ==========================================
+    output_content = cleaned_content
+
+    # Parse Whale Alerts from the scraped Whale page (if present)
+    whale_text = ""
+    for page in all_content:
+        if "whale-alert.io/alerts.html" in page["url"]:
+            whale_text = page["content"]
+            break
+    whale_alerts = parse_whale_alerts(whale_text) if whale_text else []
+
+    # Append Fear & Greed JSON (if fetched)
+    if api_data is not None:
+        output_content += "\r\n\r\n" + "=" * 60 + "\r\n\r\n"
+        output_content += "=== API DATA: CoinMarketCap Fear & Greed (ISO timestamps) ===\r\n"
+        output_content += "=" * 60 + "\r\n\r\n"
+        output_content += json.dumps(api_data, indent=2)
+        output_content += "\r\n\r\n" + "=" * 60 + "\r\n\r\n"
+
+    # Append Whale Alerts JSON (parsed)
+    if whale_alerts:
+        output_content += "\r\n\r\n" + "=" * 60 + "\r\n\r\n"
+        output_content += "=== PARSED Whale Alerts (JSON) ===\r\n"
+        output_content += "=" * 60 + "\r\n\r\n"
+        output_content += json.dumps({"alerts": whale_alerts}, indent=2)
+        output_content += "\r\n\r\n" + "=" * 60 + "\r\n\r\n"
+
+    if not cleaned_content and api_data is None and not whale_alerts:
+        print("Nothing to output.")
+        return
+
+    # ==========================
+    # Save text file
+    # ==========================
+    print("Content successfully extracted!")
+    print("Preview (first 300 characters):")
+    print("-" * 50)
+    print(output_content[:300] + "..." if len(output_content) > 300 else output_content)
+    print("-" * 50)
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"cryptocraft_clean_{timestamp}.txt"
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write("Multi-page scrape + API data collection\n")
+        f.write(f"Pages scraped: {len(all_content)}\n")
+        f.write(f"API endpoints: {len(enabled_apis)}\n")
+        f.write(f"Scraped: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        f.write(f"Total length: {len(output_content)} characters\n")
+        f.write("=" * 60 + "\n\n")
+        f.write(output_content)
+    print(f"Content saved to: {filename}")
+
+    # ==========================
+    # Save structured JSON file
+    # ==========================
+    structured = {
+        "fear_greed": api_data["data"] if api_data else [],
+        "whale_alerts": whale_alerts,
+        "meta": {
+            "generated_at": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+        }
+    }
+    json_filename = f"crypto_structured_{timestamp}.json"
+    with open(json_filename, "w", encoding="utf-8") as jf:
+        json.dump(structured, jf, indent=2)
+    print(f"Structured JSON saved to: {json_filename}")
+
 if __name__ == "__main__":
-    print("Starting scraper...")
+    print("Starting cryptocraft scraper...")
+    print("=" * 50)
     asyncio.run(scrape_and_save())
-    print("Done!")
+    print("Scraping complete!")
