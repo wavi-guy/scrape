@@ -1,0 +1,1931 @@
+Multi-page scrape + API data collection
+Pages scraped: 5
+API endpoints: 1
+Scraped: 2025-09-29 00:14:49
+Total length: 73084 characters
+============================================================
+
+=== PAGE: https://www.cryptocraft.com/market/btcusd ===
+TITLE: BTC/USD Crypto Craft
+============================================================
+BTC/USD Crypto Craft Home Forums News Calendar Coins Market LoginCreate AccountUser/Email:Password:
+12:14am
+Menu Forums
+News
+Calendar
+Coins
+Market
+Login
+Create Account
+12:14am
+Page Layout Crypto Focused Page Layout Crypto Focused Live (temporarily disabled) BTC/USD
+Click to change the
+displayed instrument.
+112103.7 Hottest Stories for BTC/USD Here’s What Happens When the US Government Shuts Down From msn.com|9 hr ago|8 comments US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly rewriting those plans in advance of the end of the fiscal year next Tuesday, making potential shutdown even more unpredictable and potentially disruptive than any other in memory. ...US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly rewriting those plans in advance of the end of the fiscal year next Tuesday, making potential shutdown even more unpredictable and potentially disruptive than any other in memory. ... Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|3 hr ago United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and offered incentives, which pulled demand forward and tightened supply to 6.8 months. Existing home sales, by contrast, stayed flat close to 4.00 million, with supply at 4.6 months, ...United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and offered incentives, which pulled demand forward and tightened supply to 6.8 months. Existing home sales, by contrast, stayed flat close to 4.00 million, with supply at 4.6 months, ... More Latest Stories for BTC/USD government shutdown would delay the jobs report at critical time as the Fed weighs more... From finance.yahoo.com|13 min ago Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|3 hr ago Here’s What Happens When the US Government Shuts Down From msn.com|9 hr ago|8 comments US: Inflation is heating up From robinjbrooks.substack.com|19 hr ago|4 comments President Trump posts cartoon image depicting him firing Fed Chief Powell From msn.com|21 hr ago|52 comments October 2025 Monthly From marctomarket.com|23 hr ago Higher stakes, Fed 'flying blind,' and 'data desert': Why this government shutdown would... From finance.yahoo.com|28 hr ago Inflation remains elevated. That won't keep the Fed from cutting rates From politico.com|35 hr ago|3 comments Trump’s 100% Pharmaceutical Tariffs Won’t Apply to the EU and Japan From msn.com|39 hr ago|14 comments US dollar at risk if Trump can sway Fed to more dovish stance, says PGIM exec From finance.yahoo.com|47 hr ago|1 comment More Posts about BTC/USD First-boss replied 41 min ago nicely predicted mate lets wait and see the opportunity this will will presents to us London section strategy mental9tyfx replied hr 40 min ago Forex Outlook: Week Beginning Sep 29, 2025 Markets ended the week pricing doubled set of signals: stronger-than-expected U.S. growth revision (Q2 GDP revised higher) that ... Mental9ty Trading Journal deekay4x replied hr ago What options are available to USA traders, can someone please point me to post/thread. Thanks for your help Prop Firm Hub 2.0 ENoris replied 13 hr ago|1 like When first stepped into trading approx year ago, it felt overwhelming, the charts, the strategies, the endless advice everywhere. Forum threads with 100s and several 1000s of ... Golden-Cross Trading-Idea More Sessions
+Performance Last hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 12 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr Last 48 hr min10 min15 min20 min25 min30 min1 hr2 hr3 hr4 hr5 hr6 hr12 hr24 hr48 hr
+Net Chg: $666.09$1,771.79$2,758.89
+Chart:
+Chg: 0.60%1.61%2.52%
+Chart for BTC/USD Expand Drawing Indicators Live (temporarily disabled) Settings Lines
+Clear All Moving Average MACD
+Breaking News
+Clear All
+Sessions
+Calendar Events
+Chart Settings
+Determines the time zone observed by the chart. All timestamps on the chart will be displayed in this time zone. Observed Time Zone:
+Match My CC Time SettingsGMT -12GMT -11GMT -10GMT -9GMT -8GMT -7GMT -6GMT -5GMT -4GMT -3GMT -2GMT -1GMT +0GMT +1GMT +2GMT +3GMT +4GMT +5GMT +6GMT +7GMT +8GMT +9GMT +10GMT +11GMT +12 Chart Height: Pixels
+Chart Height (mobile): Pixels
+Chart Width: Full-WidthHalf-Width Bar Type: CandleOHLCLineLine (dotted)Area Displayed Intervals:
+Minute
+Minute
+10 Minute
+15 Minute
+30 Minute
+Hour
+Hour
+Daily
+Weekly
+Monthly
+Cursor: CrossHorizontalVerticalNone Colors: Data Background Grid Mouse Wheel Zooming: OffOn
+(, range)
+BTC/USD is synthetically derived;
+High/Low data integrity may vary.
+Upcoming events for BTC/USD There are no upcoming events for BTC/USD.
+Due Impact Forecast
+14 hr US Pending Home Sales m/m US Pending Home Sales m/m
+0.2%
+17 hr US SEC Chair Atkins Speaks US SEC Chair Atkins Speaks
+20 hr US SEC Commissioner Uyeda Speaks US SEC Commissioner Uyeda Speaks
+22 hr US SEC Commissioner Peirce Speaks US SEC Commissioner Peirce Speaks
+26 hr CH Manufacturing PMI CH Manufacturing PMI
+49.6
+29 hr AU Cash Rate AU Cash Rate
+3.60%
+29 hr AU RBA Rate Statement AU RBA Rate Statement
+30 hr AU RBA Press Conference AU RBA Press Conference
+Maximum Allowed More More Quotes for BTC/USD Exchanges Bid Ask Spread
+WhiteBIT
+$112,708.5
+$112,665.5
+$43.0
+Poloniex
+$112,318.5
+$111,973.3
+$345.2
+Bitfinex
+$112,317.9
+$112,327.9
+$10.0
+Coinbase
+$112,121.8
+$112,121.8
+$0.0
+Gemini
+$112,109.6
+$112,127.9
+$18.3
+OKX
+$112,097.7
+$112,097.8
+$0.1
+KuCoin
+$112,083.1
+$112,083.2
+$0.1
+Hotcoin
+$112,082.3
+$112,084.3
+$2.0
+ProBit
+$112,059.9
+$112,098.6
+$38.7
+CoinEx
+$112,051.8
+$112,052.8
+$1.0
+Crypto Instruments About
+BTC/USD
+ETH/USD
+DOGE/USD
+BCH/USD
+LTC/USD
+XMR/USD
+ETC/USD
+ZEC/USD
+Macro Instruments About
+SPX/USD
+NDX/USD
+Nikkei225/USD
+FTSE100/USD
+DXY/USD
+WTI/USD
+Gold/USD
+VIX/USD
+Top of Page Default Page About CC Mission Products User Guide Blog Contact CC Products Forums Calendar News Coins Market CC Website Homepage Search Traders Report Problem Follow CC CC Sister Sites: Crypto Craft® is brand of Fair Economy, Inc. Terms of Service ©2025
+Determines the time zone observed by the chart. All timestamps on the chart will be displayed in this time zone.
+============================================================
+=== PAGE: https://whale-alert.io/alerts.html ===
+TITLE: Alerts Whale Alert
+============================================================
+Home
+Alerts
+Analytics
+Login
+Sign Up
+Create your own alerts with powerful filters and receive instant notifications of large transactions, faster than anywhere else. Try it FREE FOR DAYS and access customizable alerts and real-time analytics!
+Free Trial
+Custom Whale Alerts
+From: Aug 31 2025 To: Sep 29 2025
+Customize
+Custom Alert Filters
+Whale Alert Official
+Stablecoin >$50M
+XRP Whales >$50M
+Add Alert filter
+hour ago
+400 #BTC (44,322,294 USD)
+has just been activated after 11.9 years
+hours ago
+103,873,456 #USDT (104,005,635 USD)
+transferred from Galaxy Digital to unknown wallet
+18 hours ago
+883,000 #SOL (178,088,679 USD)
+transferred from unknown wallet to unknown wallet
+18 hours ago
+1,132,655 #SOL (228,160,764 USD)
+transferred from unknown wallet to unknown wallet
+23 hours ago
+250,000,000 #USDC (249,876,500 USD)
+transferred from unknown wallet to unknown wallet
+23 hours ago
+250,031,014 #USDC (249,906,124 USD)
+transferred from unknown wallet to unknown wallet
+23 hours ago
+250,031,014 #USDC (249,907,374 USD)
+transferred from unknown wallet to unknown wallet
+23 hours ago
+250,031,014 #USDC (249,907,374 USD)
+transferred from unknown wallet to unknown wallet
+27-Sept-2025 19:59
+764,930 #SOL (154,237,247 USD)
+transferred from unknown wallet to Coinbase Institutional
+27-Sept-2025 13:36
+99,999,999 #USDT (100,055,499 USD)
+transferred from unknown wallet to #Aave
+27-Sept-2025 13:34
+170,000,000 #USDT (170,168,016 USD)
+transferred from #Kraken to unknown wallet
+27-Sept-2025 13:28
+584 #BTC (63,888,044 USD)
+transferred from #Binance to unknown wallet
+27-Sept-2025 13:26
+170,000,000 #USDT (170,241,824 USD)
+transferred from Tether Treasury to #Kraken
+27-Sept-2025 12:26
+740 #BTC (80,910,061 USD)
+transferred from #Ceffu to unknown wallet
+27-Sept-2025 03:12
+120,000,000 #USDT (120,075,000 USD)
+transferred from Tether Treasury to #Bitfinex
+27-Sept-2025 03:11
+120,000,000 #USDT (120,078,000 USD)
+transferred from #Bitfinex to Tether Treasury
+27-Sept-2025 02:54
+1,000,000,000 #USDT (1,001,362,499 USD)
+minted at Tether Treasury
+27-Sept-2025 01:13
+250,000,000 #USDC (249,901,500 USD)
+transferred from unknown wallet to unknown wallet
+27-Sept-2025 01:04
+250,031,049 #USDC (249,882,781 USD)
+transferred from unknown wallet to unknown wallet
+27-Sept-2025 00:45
+250,031,049 #USDC (249,939,788 USD)
+transferred from unknown wallet to unknown wallet
+27-Sept-2025 00:43
+250,031,049 #USDC (249,904,659 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 23:56
+980 #BTC (107,469,129 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 21:43
+13,600 #ETH (54,614,965 USD)
+transferred from #Okex to unknown wallet
+26-Sept-2025 21:41
+13,600 #ETH (54,625,216 USD)
+transferred from #Okex to unknown wallet
+26-Sept-2025 21:00
+129,999,999 #USDT (130,182,324 USD)
+transferred from #Aave to unknown wallet
+26-Sept-2025 20:58
+129,999,999 #USDT (130,174,849 USD)
+transferred from unknown wallet to #Aave
+26-Sept-2025 20:55
+252,000,000 #USDT (252,147,420 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 20:46
+252,000,000 #USDT (252,146,160 USD)
+transferred from Tether Treasury to #Kraken
+26-Sept-2025 20:37
+498 #BTC (54,409,124 USD)
+transferred from unknown wallet to #Cumberland
+26-Sept-2025 20:35
+20,000,000 #XRP (55,680,505 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 20:35
+25,000,000 #XRP (69,604,257 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 19:55
+672 #BTC (73,897,078 USD)
+transferred from unknown wallet to #Gemini
+26-Sept-2025 19:26
+62,269,690 #USDC (62,275,917 USD)
+burned at USDC Treasury
+26-Sept-2025 19:17
+2,000 #BTC (220,400,641 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 19:12
+2,500 #BTC (274,877,829 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 18:56
+2,500 #BTC (274,581,380 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 18:32
+2,500 #BTC (274,372,375 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 18:32
+2,500 #BTC (274,372,375 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 18:10
+2,140 #BTC (234,467,162 USD)
+transferred from #Cryptocom to unknown wallet
+26-Sept-2025 18:06
+200,004,000 #PYUSD (200,017,943 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 17:47
+89,372,438 #USDC (89,318,814 USD)
+minted at USDC Treasury
+26-Sept-2025 17:45
+2,280 #BTC (249,286,783 USD)
+transferred from #Cryptocom to unknown wallet
+26-Sept-2025 17:45
+200,003,911 #PYUSD (199,979,152 USD)
+transferred from #Cumberland to unknown wallet
+26-Sept-2025 17:39
+199,062,799 #PYUSD (199,038,157 USD)
+transferred from unknown wallet to #Cumberland
+26-Sept-2025 17:35
+199,062,799 #PYUSD (199,086,632 USD)
+minted at unknown wallet
+26-Sept-2025 17:10
+1,146 #BTC (125,341,002 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 17:10
+2,300 #BTC (251,383,912 USD)
+transferred from #Cryptocom to unknown wallet
+26-Sept-2025 17:10
+500 #BTC (54,648,720 USD)
+transferred from Bitwise Etf to #Coinbase
+26-Sept-2025 15:55
+23,200,000 #XRP (62,769,463 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 15:51
+1,093 #BTC (119,205,852 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 15:25
+23,200,000 #XRP (63,211,376 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 15:25
+2,000 #BTC (217,967,031 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 15:05
+150,000,000 #USDT (150,090,750 USD)
+transferred from Tether Treasury to #Bitfinex
+26-Sept-2025 14:55
+150,000,000 #USDT (150,184,875 USD)
+transferred from #Aave to unknown wallet
+26-Sept-2025 14:45
+100,000 #ETH (394,112,025 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 14:01
+100,000 #ETH (393,530,148 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 13:52
+690 #BTC (75,496,786 USD)
+transferred from #Antpool to Coinbase Institutional
+26-Sept-2025 13:51
+100,000 #ETH (393,962,968 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 13:50
+706 #BTC (77,243,119 USD)
+transferred from unknown wallet to #Antpool
+26-Sept-2025 13:49
+271,675 #SOL (53,405,327 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 12:54
+22,700,000 #XRP (61,942,294 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 12:22
+300,000,000 #USDT (300,362,250 USD)
+transferred from #Aave to #Htx
+26-Sept-2025 11:33
+500,000,000 #USDT (500,634,999 USD)
+transferred from #Aave to #Htx
+26-Sept-2025 09:36
+1,015 #BTC (111,295,884 USD)
+transferred from #Ceffu to #Binance
+26-Sept-2025 09:33
+60,000,000 #USDC (59,964,210 USD)
+burned at USDC Treasury
+26-Sept-2025 09:19
+16,364 #ETH (64,465,493 USD)
+transferred from unknown wallet to #Binance
+26-Sept-2025 09:16
+55,000,000 #USDC (54,969,887 USD)
+burned at USDC Treasury
+26-Sept-2025 08:59
+17,000 #ETH (66,917,267 USD)
+transferred from #Ceffu to unknown wallet
+26-Sept-2025 07:28
+637 #BTC (69,918,616 USD)
+transferred from #Kraken to #Bitfinex
+26-Sept-2025 05:35
+1,000 #BTC (109,298,067 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 04:23
+479 #BTC (52,474,632 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 02:42
+551 #BTC (60,466,485 USD)
+transferred from unknown wallet to #Kraken
+26-Sept-2025 02:31
+967 #BTC (106,122,744 USD)
+transferred from #Antpool to unknown wallet
+26-Sept-2025 02:17
+1,037 #BTC (113,798,540 USD)
+transferred from unknown wallet to #Antpool
+26-Sept-2025 01:58
+480 #BTC (52,628,920 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 01:31
+577 #BTC (63,111,640 USD)
+transferred from #Kraken to unknown wallet
+26-Sept-2025 01:13
+250,000,000 #USDC (249,875,000 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 01:05
+250,030,983 #USDC (249,956,974 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 00:43
+250,030,983 #USDC (249,931,596 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 00:42
+250,030,983 #USDC (249,931,596 USD)
+transferred from unknown wallet to unknown wallet
+26-Sept-2025 00:29
+650 #BTC (71,123,717 USD)
+transferred from unknown wallet to #Kraken
+25-Sept-2025 23:57
+638 #BTC (69,790,653 USD)
+transferred from unknown wallet to #Kraken
+25-Sept-2025 23:15
+250,000,000 #USDC (249,926,125 USD)
+minted at USDC Treasury
+25-Sept-2025 23:14
+250,000,000 #USDC (249,900,537 USD)
+minted at USDC Treasury
+25-Sept-2025 22:03
+250,000,000 #USDC (249,897,250 USD)
+minted at USDC Treasury
+25-Sept-2025 21:58
+36,165 #ETH (140,535,939 USD)
+transferred from unknown wallet to unknown wallet
+25-Sept-2025 21:52
+500 #BTC (54,538,577 USD)
+transferred from #Okex to unknown wallet
+25-Sept-2025 21:52
+2,385 #BTC (260,226,459 USD)
+transferred from #Kraken to unknown wallet
+25-Sept-2025 21:41
+14,063 #ETH (54,625,231 USD)
+transferred from #Okex to unknown wallet
+25-Sept-2025 21:11
+2,000 #BTC (218,531,138 USD)
+transferred from #Kraken to unknown wallet
+25-Sept-2025 21:11
+493 #BTC (53,890,341 USD)
+transferred from unknown wallet to Galaxy Digital
+25-Sept-2025 21:10
+2,297,942 #LINK (46,836,195 USD)
+transferred from unknown wallet to #Coinbase
+25-Sept-2025 20:54
+2,720 #BTC (297,837,546 USD)
+transferred from #Kraken to unknown wallet
+25-Sept-2025 20:47
+2,500 #BTC (273,712,147 USD)
+transferred from #Kraken to unknown wallet
+25-Sept-2025 20:15
+3,845 #BTC (422,113,872 USD)
+transferred from unknown wallet to unknown wallet
+25-Sept-2025 19:15
+1,000 #BTC (109,144,649 USD)
+transferred from unknown wallet to unknown wallet
+25-Sept-2025 18:49
+20,852 #ETH (80,588,775 USD)
+transferred from #Falconx to unknown wallet
+25-Sept-2025 18:37
+20,852 #ETH (80,850,768 USD)
+transferred from unknown wallet to #Falconx
+25-Sept-2025 18:10
+75,000,000 #USDC (74,975,775 USD)
+burned at USDC Treasury
+25-Sept-2025 17:53
+295,795 #SOL (58,948,001 USD)
+transferred from unknown wallet to #Binance
+Maximum number of alerts reached. Adjust filters or time range to view older alerts.
+About Whale Alert
+The most trustworthy independent blockchain analytics company in the ecosystem. Founded in
+2018 and followed by millions of blockchain enthusiasts looking for valuable actionable
+data.
+2025
+Whale Alert
+Terms Conditions
+Privacy Policy
+Press
+Roadmap
+Whale Limits
+FAQ
+Pricing
+API Documentation
+Research
+Contact Us
+Pricing
+Alerts Analytics
+Dashboard for Traders
+US$29.95
+/month
+Try for FREE for days!
+Create Custom Alerts*
+In-Browser Alert Notifications
+iOS/Android Alert Notifications
+All Coin Analytics Metrics
+Stablecoin Mint/Burn Analytics
+Live AI-Powered News Ticker
+Historical Live Coin Prices
+Up to 1,000 alerts per day (100 per filter)
+7-Day Free Trial
+Priority Alerts
+API for Businesses
+Contact Us
+Gain access to critical crypto transaction alerts before anyone else with Whale
+Alert’s Enterprise Priority Alerts API. Faster, more secure and
+tailored for high-stakes scenarios like large transfers, mints/burns,
+and black swan events.
+Explore Priority Alerts
+TRUSTED BY
+Contact Us
+If you have any questions, want to submit an article or would like to reach out to us about any related topics, please feel free to send us message using the contact form below.
+Select subject
+General Inquiry
+Technical Support
+Pricing and Plans
+API Access
+Bug Report
+Feature Request
+Partnership Opportunities
+Media and Press
+Other
+Send
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+Home
+Alerts
+Analytics
+Login
+Sign Up
+Alert
+Name
+Color
+<i class="mdi mdi-circle-off-outline alert-color-0"></i><i class="mdi mdi-circle alert-color-1"></i><i class="mdi mdi-circle alert-color-2"></i><i class="mdi mdi-circle alert-color-3"></i><i class="mdi mdi-circle alert-color-4"></i><i class="mdi mdi-circle alert-color-5"></i><i class="mdi mdi-circle alert-color-6"></i><i class="mdi mdi-circle alert-color-7"></i><i class="mdi mdi-circle alert-color-8"></i><i class="mdi mdi-circle alert-color-9"></i><i class="mdi mdi-circle alert-color-10"></i>
+Blockchain(s)
+AllBitcoinEthereumDogecoinTronBitcoin CashLitecoinAlgorandPolygonSolanaRippleCardano
+Coin(s)
+Alert Type(s)
+All
+Transfer
+Mint
+Burn
+Lock/Freeze
+Unlock/Unfreeze
+Dormant Activation
+High Fee
+×All
+Max filters: 10 Max alerts per filter per day: 100
+Minimum Transaction Value
+1,000,000 USD
+2,500,000 USD
+5,000,000 USD
+10,000,000 USD
+25,000,000 USD
+50,000,000 USD
+100,000,000 USD
+250,000,000 USD
+500,000,000 USD
+1,000,000,000 USD
+2,500,000,000 USD
+5,000,000,000 USD
+10,000,000,000 USD
+1,000,000 USD
+Minimum Dormant Age
+8+ Years
+9+ Years
+10+ Years
+11+ Years
+12+ Years
+13+ Years
+14+ Years
+15+ Years
+16+ Years
+17+ Years
+18+ Years
+19+ Years
+20+ Years
+10+ Years
+Minimum Fee Value
+1,000 USD
+2,500 USD
+5,000 USD
+10,000 USD
+25,000 USD
+50,000 USD
+100,000 USD
+250,000 USD
+500,000 USD
+1,000,000 USD
+1,000 USD
+Official Whale Alerts Only
+Close
+Delete
+Save changes
+Add whale-alert.io to your Home Screen to enable notifications:
+Open whale-alert.io in Safari and tap the Share icon.
+Select Add to Home Screen.
+Open the newly added app icon to get full notifications support.
+Continue
+TodayYesterdayLast DaysLast 30 DaysThis MonthLast MonthCustom RangeCancelApply
+============================================================
+=== PAGE: https://www.cryptocraft.com/news ===
+TITLE: News Crypto Craft
+============================================================
+News Crypto Craft Home Forums News Calendar Coins Market LoginCreate AccountUser/Email:Password:
+12:14am
+Menu Forums
+News
+Calendar
+Coins
+Market
+Login
+Create Account
+12:14am
+Submit News Search Breaking News Legend High Impact Medium Impact Low Impact
+Breaking news is defined as new information that has market-moving potential.
+(more)
+All breaking news is rated high (red), medium (orange), or low (yellow) depending on the how much it impacted the market.
+Central Bank Rates 4.25% US 4.00% UK 3.60% AU 3.00% NZ 2.50% CA 2.15% EZ <0.50% JN 0.00% SZ Crypto News News Latest Stories Stream News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Eric Adams drops out of the New York City election race From thestreet.com|13 min ago Traders’ Weekly Playbook: Trading Through an Impending US Government Shutdown From pepperstone.com|1 hr 13 min ago Welcome to the Age of Perennial Crisis From dlacalle.com|2 hr 13 min ago|1 comment Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|3 hr ago The hidden force behind Bitcoin and Ether price swings: Options expiry From cointelegraph.com|5 hr ago|1 comment Here’s What Happens When the US Government Shuts Down From msn.com|9 hr ago|8 comments US: Inflation is heating up From robinjbrooks.substack.com|19 hr ago|4 comments ETH Liquidity Heatmap Hints Retest to $3,700-$3,800 Range From fxdailyreport.com|23 hr ago Higher stakes, Fed 'flying blind,' and 'data desert': Why this government shutdown would... From finance.yahoo.com|28 hr ago Kraken in Strategic Investor Talks at $20 Billion Valuation From msn.com|33 hr ago Vanguard May Finally Allow Access to Bitcoin and Ethereum ETFs From financefeeds.com|39 hr ago The Week in Crypto Deleveraging, Not Derailing From medium.com|43 hr ago Crypto Enters the “Era of Substance” From marketsmedia.com|47 hr ago Wall Street's Crypto Reckoning: Bitcoin Treasury Buying Crashes 76% Amid Institutional Pullback From markets.financialcontent.com|Sep 26, 2025 Eric Trump on why crypto is America’s financial future From nypost.com|Sep 26, 2025 More News Latest Liked News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Eurorally commented hr ago Inflation is heating up? The GDP Price index is 2.1%, PPI 2.6% and CPI 2.9% while the average annual inflation over the last 50 years has been 3.38%. And those who professed doom ... Inflation is heating up? The GDP Price index is 2.1%, PPI 2.6% and CPI 2.9% while the average annual inflation over the last 50 years has been 3.38%. And those who professed doom ... US: Inflation is heating up ffghost commented Sep 26, 2025 If had to guess, the higher income people are keeping the economy up while the lower income folks are keeping the survey numbers skewed down. There is no question things cost ... If had to guess, the higher income people are keeping the economy up while the lower income folks are keeping the survey numbers skewed down. There is no question things cost ... US UMich final September consumer sentiment 55.1 vs 55.4 expected DuranDuran commented Sep 26, 2025 Shocking that the monthly +70 UMich poll says the economy is failing again. GDP was +3.8% last quarter but these people would have you believe we’re in recession. Have we ... Shocking that the monthly +70 UMich poll says the economy is failing again. GDP was +3.8% last quarter but these people would have you believe we’re in recession. Have we ... US UMich final September consumer sentiment 55.1 vs 55.4 expected Schultz commented Sep 26, 2025 Perhaps there is nothing much that the Fed can do, realistically, with respect to the real economy. From about Dec 2008 to maybe July 2022 the real Fed funds was negative, give or ... US Personal Income and Outlays, August 2025 DaJoWaBa commented Sep 26, 2025 Whilst earnings continue to exceed the RoI, without job losses biting, the consumer is happy enough. So, maybe, they'll hold. It all rather depends on how and when any tariffs on ... US Personal Income and Outlays, August 2025 More Entertainment News Latest Stories News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Tennessee Couple Hit With $6.8 Million Penalty for 'Blessings of God Thru Crypto' Fraud From decrypt.co|Sep 26, 2025 Tennessee couple who exploited their real estate connections to bilk investors out of millions through fake crypto trading scheme has been ordered to pay over $6.8 million in restitution and penalties. The Commodity Futures Trading Commission announced Thursday that the U.S. District Court for the Middle District of Tennessee entered consent order ... Big banks win dismissal of Libor-rigging litigation in New York From finance.yahoo.com|Sep 26, 2025 federal judge on Thursday dismissed "all remaining claims" in slew of antitrust litigation accusing large banks of conspiring to rig Libor, an interest rate benchmark that once underpinned hundreds of trillions of dollars of transactions, at investors' expense. In 273-page decision, U.S. District Judge Naomi Reice Buchwald said that despite 14 years ... More Educational News Latest Story News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+The hidden force behind Bitcoin and Ether price swings: Options expiry From cointelegraph.com|5 hr ago|1 comment To most people, Bitcoin and Ether market prices can seem unpredictable. But look closer, and there’s hidden force driving the infamous volatility: options expiries. When large volumes of these derivative options contracts approach their expiry date, it sends ripples through the crypto markets. Understand this, and you’ll know when prices are more likely ... More News Hot Stories News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Traders’ Weekly Playbook: Trading Through an Impending US Government Shutdown From pepperstone.com|1 hr 13 min ago This, in turn, has pushed the USD Index (DXY) to 98.60, where better sellers have emerged at the August range highs and the 100-day MA. Those long of USDs will want to see daily close above 98.80 and below 1.1660 (EURUSD) to see technical momentum build, but that will likely require rates traders to reprice/reduce expectations for Fed cut in the October ...This, in turn, has pushed the USD Index (DXY) to 98.60, where better sellers have emerged at the August range highs and the 100-day MA. Those long of USDs will want to see daily close above 98.80 and below 1.1660 (EURUSD) to see technical momentum build, but that will likely require rates traders to reprice/reduce expectations for Fed cut in the October ... The hidden force behind Bitcoin and Ether price swings: Options expiry From cointelegraph.com|5 hr ago|1 comment To most people, Bitcoin and Ether market prices can seem unpredictable. But look closer, and there’s hidden force driving the infamous volatility: options expiries. When large volumes of these derivative options contracts approach their expiry date, it sends ripples through the crypto markets. Understand this, and you’ll know when prices are more likely ...To most people, Bitcoin and Ether market prices can seem unpredictable. But look closer, and there’s hidden force driving the infamous volatility: options expiries. When large volumes of these derivative options contracts approach their expiry date, it sends ripples through the crypto markets. Understand this, and you’ll know when prices are more likely ... Canada gross domestic product by industry, July 2025 From statcan.gc.ca|Sep 26, 2025|4 comments Real gross domestic product (GDP) grew 0.2% in July, after edging down (-0.1%) in June. The first increase in four months was predominantly driven by expansion in the goods-producing industries. Goods-producing industries rebounded with 0.6% increase in July, following three consecutive months of contraction, as all sectors in this grouping expanded. ...Real gross domestic product (GDP) grew 0.2% in July, after edging down (-0.1%) in June. The first increase in four months was predominantly driven by expansion in the goods-producing industries. Goods-producing industries rebounded with 0.6% increase in July, following three consecutive months of contraction, as all sectors in this grouping expanded. ... More Fundamental Analysis Most Viewed 12H News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+US: Inflation is heating up From robinjbrooks.substack.com|19 hr ago|4 comments The signals on inflation have been confusing to say the least. Tariffs did push up inflation, but that impulse peaked in June and has faded rapidly since then. Yet core inflation ...The signals on inflation have been confusing to say the least. Tariffs did push up inflation, but that impulse peaked in June and has faded rapidly since then. Yet core inflation ... Here’s What Happens When the US Government Shuts Down From msn.com|9 hr ago|8 comments US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly ...US government shutdowns have become so common in recent decades that every federal agency has playbook for how to implement them. But the Trump administration is quickly ... Weekly Macro and Policy Wrap-Up From macroanchor.substack.com|3 hr ago United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and ...United States: Housing is finally showing signs of life. New home sales jumped 20.5% in August to an annualized 800k pace, the strongest since early 2022. Builders cut prices and ... More Breaking News Most Viewed 12H News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+There are no posts to display for these settings. Technical Analysis Latest Stories News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Traders’ Weekly Playbook: Trading Through an Impending US Government Shutdown From pepperstone.com|1 hr 13 min ago This, in turn, has pushed the USD Index (DXY) to 98.60, where better sellers have emerged at the August range highs and the 100-day MA. Those long of USDs will want to see daily close above 98.80 and below 1.1660 (EURUSD) to see technical momentum build, but that will likely require rates traders to reprice/reduce expectations for Fed cut in the October ... ETH Liquidity Heatmap Hints Retest to $3,700-$3,800 Range From fxdailyreport.com|23 hr ago Ethereum’s ($ETH) exclusive trading activity is getting significant attention among market observers. In this respect, the ETH liquidity heatmap points toward likely retest of the price range between $3,700 and $3,800. The $3,700-$3,800 range’s retest builds on the fact that the long liquidations are densely concentrated within the respective zone. Hence, ... More Crypto Industry News Latest Story News Block Settings
+Show Category All News Breaking News Fundamental Analysis Technical Analysis Entertainment News Crypto Industry News Educational News Display Format Headlines Stories Large Stories Comments Display Items 10 11 12 13 14 15 16 17 18 19 20 Sort By Latest Hot Last Commented Most Commented Most Viewed Latest Liked Best Liked Sort Period Last 12 Hours Last 24 Hours Last 48 Hours Last Days Last 30 Days
+News Block Filter
+Saving…
+Kraken in Strategic Investor Talks at $20 Billion Valuation From msn.com|33 hr ago Kraken is in advanced talks to raise new funding that could value the crypto exchange at about $20 billion, as the company steps up capital-raising efforts ahead of potential public listing. The funding, which is not yet finalized and remains subject to market conditions, would consist of $200 million to $300 million commitment from strategic ... More Top of Page Default Page About CC Mission Products User Guide Blog Contact CC Products Forums Calendar News Coins Market CC Website Homepage Search Traders Report Problem Follow CC CC Sister Sites: Crypto Craft® is brand of Fair Economy, Inc. Terms of Service ©2025
+============================================================
+=== PAGE: https://coinmarketcap.com/charts/fear-and-greed-index/ ===
+TITLE: Crypto Fear and Greed Index CoinMarketCap
+============================================================
+CryptocurrenciesCryptocurrenciesRankingCategoriesHistorical SnapshotsToken unlocksYieldReal-World AssetsLeaderboardsTrendingUpcomingRecently AddedGainers LosersMost VisitedCommunity SentimentChain RankingMarket OverviewMarket OverviewCoinMarketCap 20 IndexCoinMarketCap 100 IndexFear and Greed IndexAltcoin Season IndexBitcoin DominanceCrypto ETFsMarket Cycle IndicatorsRelative Strength Index (RSI)TreasuriesBitcoin TreasuriesBNB TreasuriesNFTOverall NFT StatsUpcoming SalesDexScanSignalsNewTrendingNewGainersMeme ExplorerTop TradersExchangesCentralized ExchangesSpotDerivativesDecentralized ExchangesSpotDerivativesCommunityFeedsLivesArticlesSentimentProductsProductsConverterNewsletterCMC LabsTelegram BotAdvertiseCrypto APISite WidgetsCampaignsAirdropsDiamond RewardsLearn EarnCalendarsICO CalendarEvents CalendarLearnNewsAcademyResearchVideosGlossaryCMC LaunchPortfolioWatchlistSearch/Log In MarketsMarket OverviewSpot MarketDerivatives Market No. of CryptocurrenciesBitcoin TreasuriesBNB TreasuriesIndicatorsFear and Greed IndexAltcoin Season IndexMarket Cycle IndicatorsBitcoin DominanceCoinMarketCap 20 IndexCoinMarketCap 100 IndexETF FlowsCrypto ETFsBitcoin ETFsEthereum ETFsTechnical AnalysisRSI DashboardCMC Crypto Fear and Greed IndexSee API DetailsDiscover our Fear and Greed Index, powerful tool that analyzes market sentiment to help you make informed crypto investment decisions. Stay ahead of market trends with real-time and historical data available through our easy-to-use API.See API DetailsCMC Crypto Fear and Greed Index50NeutralHistorical ValuesYesterdayNeutral 50Last WeekNeutral 50Last MonthNeutral 50Yearly High and LowYearly High ()Neutral 50Yearly Low ()Neutral 50CMC Crypto Fear and Greed Index50NeutralHistorical ValuesYesterdayNeutral 50Last WeekNeutral 50Last MonthNeutral 50Yearly High and LowYearly High ()Neutral 50Yearly Low ()Neutral 50Oops! Something went wrong. Try AgainAbout CMC Crypto Fear and Greed IndexWhat is the CMC Fear and Greed Index?The CMC Fear and Greed Index is proprietary tool developed by CoinMarketCap that measures the prevailing sentiment in the cryptocurrency market. This index ranges from to 100, where lower value indicates extreme fear, and higher value indicates extreme greed. It helps investors understand the emotional state of the market, which can influence buying and selling behaviors. The index provides insights into whether the market may be undervalued (extreme fear) or overvalued (extreme greed).How can use this index?The CMC Fear and Greed Index can be used in several ways:
+Market Sentiment Analysis: By observing the current value of the index, you can gauge the overall mood of the cryptocurrency market. For example, high value suggests that investors are overly greedy, which may indicate that the market is overheated and due for correction. Conversely, low value may suggest that fear is driving prices down, potentially creating buying opportunities.
+Contrarian Strategy: Some investors use the index as part of contrarian investment strategy. The idea is to "be fearful when others are greedy and greedy when others are fearful." If the index shows extreme greed, it might be signal to consider selling assets, while extreme fear could indicate buying opportunity.
+Complementary Analysis: Use the index alongside other analytical tools and indicators to make more informed decisions. It’s important to remember that the index is tool for gauging sentiment and should not be used in isolation.How is this index calculated?The CMC Fear and Greed Index is calculated using five key components:
+1. Price Momentum: This factor analyzes the price performance of the top 10 cryptocurrencies by market capitalization (excluding stablecoins). It assesses how these coins are performing relative to each other and the broader market.
+2. Volatility: The index incorporates Volmex Implied Volatility Indices (BVIV and EVIV) for Bitcoin (BTC) and Ethereum (ETH), which provide forward-looking measures of expected volatility over the next 30 days.
+3. Derivatives Market: The index considers the Put/Call Ratio in the Bitcoin and Ethereum options markets. higher ratio of puts to calls indicates more fear in the market, suggesting bearish expectations among investors.
+4. Market Composition: This component looks at the relative value of Bitcoin (BTC) in the market, using the Stablecoin Supply Ratio (SSR) to measure the ratio between Bitcoin’s market capitalization and that of major stablecoins.
+5. CMC Proprietary Data: The index also uses social trend keyword searches and user engagement metrics to capture market sentiment, retail interest, and emerging trends.Can get this data through an API?Yes, you can access the CMC Fear and Greed Index data through the CoinMarketCap API for free. Here’s how you can do it:Example: Fetching the Latest CMC Fear and Greed Index ValueTo get the latest Fear and Greed Index value, you can use the following API endpoint:API Endpoint:
+GET https://pro-api.coinmarketcap.com/v3/fear-and-greed/historicalParameters
+start: (optional) Integer specifying the starting point of the data retrieval. limit: (optional) Integer specifying the number of records to return (default is 50).Response Example:```json
+Indicator Bank leads|Platform Tech|2,080 replies ThaoAnh replied 28 hr ago {image} {file} {file} {file} {file} {file} {file} Bitcoin (BTCUSD) leads|Interactive Trading|1,674 replies rickdaniel replied Sep 25, 2025 Sounds good, trading BTCUSD can be really volatile, so timing entries and risk management ... Do you use stoploss? leads|Rookie Talk|695 replies Agra1 replied Sep 25, 2025 Fx4money, you said you don't use stop loss for your gold investor system. Given the risk of ... XRP and XLM leads|Interactive Trading|1 reply RianAtheer replied Sep 22, 2025 Interesting approach layering in with small lots and holding long-term on XRP XLM could pay ... Trend momentum leads|Trading Discussion|9 replies since80808 replied 31 hr ago Which method? Any system in this thread? More Top of Page Default Page About CC Mission Products User Guide Blog Contact CC Products Forums Calendar News Coins Market CC Website Homepage Search Traders Report Problem Follow CC CC Sister Sites: Crypto Craft® is brand of Fair Economy, Inc. Terms of Service ©2025
+============================================================
+
+============================================================
+
+=== API DATA: CoinMarketCap Fear & Greed (ISO timestamps) ===
+============================================================
+
+{
+  "data": [
+    {
+      "timestamp": "2025-09-27T00:00:00Z",
+      "value": 34,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "2025-09-26T00:00:00Z",
+      "value": 32,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "2025-09-25T00:00:00Z",
+      "value": 41,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-24T00:00:00Z",
+      "value": 39,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "2025-09-23T00:00:00Z",
+      "value": 40,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-22T00:00:00Z",
+      "value": 47,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-21T00:00:00Z",
+      "value": 48,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-20T00:00:00Z",
+      "value": 48,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-19T00:00:00Z",
+      "value": 52,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-18T00:00:00Z",
+      "value": 51,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-17T00:00:00Z",
+      "value": 51,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-16T00:00:00Z",
+      "value": 50,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-15T00:00:00Z",
+      "value": 51,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-14T00:00:00Z",
+      "value": 52,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-13T00:00:00Z",
+      "value": 53,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-12T00:00:00Z",
+      "value": 50,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-11T00:00:00Z",
+      "value": 47,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-10T00:00:00Z",
+      "value": 43,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-09T00:00:00Z",
+      "value": 44,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-08T00:00:00Z",
+      "value": 42,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-07T00:00:00Z",
+      "value": 40,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-06T00:00:00Z",
+      "value": 41,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-05T00:00:00Z",
+      "value": 41,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-04T00:00:00Z",
+      "value": 44,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-03T00:00:00Z",
+      "value": 42,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-09-02T00:00:00Z",
+      "value": 39,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "2025-09-01T00:00:00Z",
+      "value": 39,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "2025-08-31T00:00:00Z",
+      "value": 40,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-30T00:00:00Z",
+      "value": 39,
+      "value_classification": "Fear"
+    },
+    {
+      "timestamp": "2025-08-29T00:00:00Z",
+      "value": 47,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-28T00:00:00Z",
+      "value": 45,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-27T00:00:00Z",
+      "value": 47,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-26T00:00:00Z",
+      "value": 43,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-25T00:00:00Z",
+      "value": 50,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-24T00:00:00Z",
+      "value": 53,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-23T00:00:00Z",
+      "value": 56,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-22T00:00:00Z",
+      "value": 46,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-21T00:00:00Z",
+      "value": 50,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-20T00:00:00Z",
+      "value": 45,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-19T00:00:00Z",
+      "value": 53,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-18T00:00:00Z",
+      "value": 56,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-17T00:00:00Z",
+      "value": 57,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-16T00:00:00Z",
+      "value": 57,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-15T00:00:00Z",
+      "value": 59,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-14T00:00:00Z",
+      "value": 68,
+      "value_classification": "Greed"
+    },
+    {
+      "timestamp": "2025-08-13T00:00:00Z",
+      "value": 63,
+      "value_classification": "Greed"
+    },
+    {
+      "timestamp": "2025-08-12T00:00:00Z",
+      "value": 60,
+      "value_classification": "Greed"
+    },
+    {
+      "timestamp": "2025-08-11T00:00:00Z",
+      "value": 62,
+      "value_classification": "Greed"
+    },
+    {
+      "timestamp": "2025-08-10T00:00:00Z",
+      "value": 59,
+      "value_classification": "Neutral"
+    },
+    {
+      "timestamp": "2025-08-09T00:00:00Z",
+      "value": 58,
+      "value_classification": "Neutral"
+    }
+  ],
+  "status": {
+    "fetched_at": "2025-09-28T23:14:49Z",
+    "source": "CoinMarketCap Fear & Greed / v3"
+  }
+}
+
+============================================================
+
+
+
+============================================================
+
+=== PARSED Whale Alerts (JSON) ===
+============================================================
+
+{
+  "alerts": [
+    {
+      "timestamp": "2025-09-28T22:14:49Z",
+      "event": "dormant_activation",
+      "asset": "BTC",
+      "amount": 400.0,
+      "usd_value": 44322294.0,
+      "from": null,
+      "to": null,
+      "extra": {
+        "age_years": 11.9
+      }
+    },
+    {
+      "timestamp": "2025-09-28T19:14:49Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 103873456.0,
+      "usd_value": 104005635.0,
+      "from": "Galaxy Digital",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-28T05:14:49Z",
+      "event": "transfer",
+      "asset": "SOL",
+      "amount": 883000.0,
+      "usd_value": 178088679.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-28T05:14:49Z",
+      "event": "transfer",
+      "asset": "SOL",
+      "amount": 1132655.0,
+      "usd_value": 228160764.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-28T00:14:49Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250000000.0,
+      "usd_value": 249876500.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-28T00:14:49Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250031014.0,
+      "usd_value": 249906124.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-28T00:14:49Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250031014.0,
+      "usd_value": 249907374.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-28T00:14:49Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250031014.0,
+      "usd_value": 249907374.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T19:59:00Z",
+      "event": "transfer",
+      "asset": "SOL",
+      "amount": 764930.0,
+      "usd_value": 154237247.0,
+      "from": "unknown wallet",
+      "to": "Coinbase Institutional",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T13:36:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 99999999.0,
+      "usd_value": 100055499.0,
+      "from": "unknown wallet",
+      "to": "#Aave",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T13:34:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 170000000.0,
+      "usd_value": 170168016.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T13:28:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 584.0,
+      "usd_value": 63888044.0,
+      "from": "#Binance",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T13:26:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 170000000.0,
+      "usd_value": 170241824.0,
+      "from": "Tether Treasury",
+      "to": "#Kraken",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T12:26:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 740.0,
+      "usd_value": 80910061.0,
+      "from": "#Ceffu",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T03:12:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 120000000.0,
+      "usd_value": 120075000.0,
+      "from": "Tether Treasury",
+      "to": "#Bitfinex",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T03:11:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 120000000.0,
+      "usd_value": 120078000.0,
+      "from": "#Bitfinex",
+      "to": "Tether Treasury",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T02:54:00Z",
+      "event": "mint",
+      "asset": "USDT",
+      "amount": 1000000000.0,
+      "usd_value": 1001362499.0,
+      "from": null,
+      "to": "Tether Treasury",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T01:13:00Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250000000.0,
+      "usd_value": 249901500.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T01:04:00Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250031049.0,
+      "usd_value": 249882781.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T00:45:00Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250031049.0,
+      "usd_value": 249939788.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-27T00:43:00Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250031049.0,
+      "usd_value": 249904659.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T23:56:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 980.0,
+      "usd_value": 107469129.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T21:43:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 13600.0,
+      "usd_value": 54614965.0,
+      "from": "#Okex",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T21:41:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 13600.0,
+      "usd_value": 54625216.0,
+      "from": "#Okex",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T21:00:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 129999999.0,
+      "usd_value": 130182324.0,
+      "from": "#Aave",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T20:58:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 129999999.0,
+      "usd_value": 130174849.0,
+      "from": "unknown wallet",
+      "to": "#Aave",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T20:55:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 252000000.0,
+      "usd_value": 252147420.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T20:46:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 252000000.0,
+      "usd_value": 252146160.0,
+      "from": "Tether Treasury",
+      "to": "#Kraken",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T20:37:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 498.0,
+      "usd_value": 54409124.0,
+      "from": "unknown wallet",
+      "to": "#Cumberland",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T20:35:00Z",
+      "event": "transfer",
+      "asset": "XRP",
+      "amount": 20000000.0,
+      "usd_value": 55680505.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T20:35:00Z",
+      "event": "transfer",
+      "asset": "XRP",
+      "amount": 25000000.0,
+      "usd_value": 69604257.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T19:55:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 672.0,
+      "usd_value": 73897078.0,
+      "from": "unknown wallet",
+      "to": "#Gemini",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T19:26:00Z",
+      "event": "burn",
+      "asset": "USDC",
+      "amount": 62269690.0,
+      "usd_value": 62275917.0,
+      "from": "USDC Treasury",
+      "to": null,
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T19:17:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2000.0,
+      "usd_value": 220400641.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T19:12:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2500.0,
+      "usd_value": 274877829.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T18:56:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2500.0,
+      "usd_value": 274581380.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T18:32:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2500.0,
+      "usd_value": 274372375.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T18:32:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2500.0,
+      "usd_value": 274372375.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T18:10:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2140.0,
+      "usd_value": 234467162.0,
+      "from": "#Cryptocom",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T18:06:00Z",
+      "event": "transfer",
+      "asset": "PYUSD",
+      "amount": 200004000.0,
+      "usd_value": 200017943.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T17:47:00Z",
+      "event": "mint",
+      "asset": "USDC",
+      "amount": 89372438.0,
+      "usd_value": 89318814.0,
+      "from": null,
+      "to": "USDC Treasury",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T17:45:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2280.0,
+      "usd_value": 249286783.0,
+      "from": "#Cryptocom",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T17:45:00Z",
+      "event": "transfer",
+      "asset": "PYUSD",
+      "amount": 200003911.0,
+      "usd_value": 199979152.0,
+      "from": "#Cumberland",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T17:39:00Z",
+      "event": "transfer",
+      "asset": "PYUSD",
+      "amount": 199062799.0,
+      "usd_value": 199038157.0,
+      "from": "unknown wallet",
+      "to": "#Cumberland",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T17:35:00Z",
+      "event": "mint",
+      "asset": "PYUSD",
+      "amount": 199062799.0,
+      "usd_value": 199086632.0,
+      "from": null,
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T17:10:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 1146.0,
+      "usd_value": 125341002.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T17:10:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2300.0,
+      "usd_value": 251383912.0,
+      "from": "#Cryptocom",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T17:10:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 500.0,
+      "usd_value": 54648720.0,
+      "from": "Bitwise Etf",
+      "to": "#Coinbase",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T15:55:00Z",
+      "event": "transfer",
+      "asset": "XRP",
+      "amount": 23200000.0,
+      "usd_value": 62769463.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T15:51:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 1093.0,
+      "usd_value": 119205852.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T15:25:00Z",
+      "event": "transfer",
+      "asset": "XRP",
+      "amount": 23200000.0,
+      "usd_value": 63211376.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T15:25:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2000.0,
+      "usd_value": 217967031.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T15:05:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 150000000.0,
+      "usd_value": 150090750.0,
+      "from": "Tether Treasury",
+      "to": "#Bitfinex",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T14:55:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 150000000.0,
+      "usd_value": 150184875.0,
+      "from": "#Aave",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T14:45:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 100000.0,
+      "usd_value": 394112025.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T14:01:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 100000.0,
+      "usd_value": 393530148.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T13:52:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 690.0,
+      "usd_value": 75496786.0,
+      "from": "#Antpool",
+      "to": "Coinbase Institutional",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T13:51:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 100000.0,
+      "usd_value": 393962968.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T13:50:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 706.0,
+      "usd_value": 77243119.0,
+      "from": "unknown wallet",
+      "to": "#Antpool",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T13:49:00Z",
+      "event": "transfer",
+      "asset": "SOL",
+      "amount": 271675.0,
+      "usd_value": 53405327.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T12:54:00Z",
+      "event": "transfer",
+      "asset": "XRP",
+      "amount": 22700000.0,
+      "usd_value": 61942294.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T12:22:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 300000000.0,
+      "usd_value": 300362250.0,
+      "from": "#Aave",
+      "to": "#Htx",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T11:33:00Z",
+      "event": "transfer",
+      "asset": "USDT",
+      "amount": 500000000.0,
+      "usd_value": 500634999.0,
+      "from": "#Aave",
+      "to": "#Htx",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T09:36:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 1015.0,
+      "usd_value": 111295884.0,
+      "from": "#Ceffu",
+      "to": "#Binance",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T09:33:00Z",
+      "event": "burn",
+      "asset": "USDC",
+      "amount": 60000000.0,
+      "usd_value": 59964210.0,
+      "from": "USDC Treasury",
+      "to": null,
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T09:19:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 16364.0,
+      "usd_value": 64465493.0,
+      "from": "unknown wallet",
+      "to": "#Binance",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T09:16:00Z",
+      "event": "burn",
+      "asset": "USDC",
+      "amount": 55000000.0,
+      "usd_value": 54969887.0,
+      "from": "USDC Treasury",
+      "to": null,
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T08:59:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 17000.0,
+      "usd_value": 66917267.0,
+      "from": "#Ceffu",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T07:28:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 637.0,
+      "usd_value": 69918616.0,
+      "from": "#Kraken",
+      "to": "#Bitfinex",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T05:35:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 1000.0,
+      "usd_value": 109298067.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T04:23:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 479.0,
+      "usd_value": 52474632.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T02:42:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 551.0,
+      "usd_value": 60466485.0,
+      "from": "unknown wallet",
+      "to": "#Kraken",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T02:31:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 967.0,
+      "usd_value": 106122744.0,
+      "from": "#Antpool",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T02:17:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 1037.0,
+      "usd_value": 113798540.0,
+      "from": "unknown wallet",
+      "to": "#Antpool",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T01:58:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 480.0,
+      "usd_value": 52628920.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T01:31:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 577.0,
+      "usd_value": 63111640.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T01:13:00Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250000000.0,
+      "usd_value": 249875000.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T01:05:00Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250030983.0,
+      "usd_value": 249956974.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T00:43:00Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250030983.0,
+      "usd_value": 249931596.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T00:42:00Z",
+      "event": "transfer",
+      "asset": "USDC",
+      "amount": 250030983.0,
+      "usd_value": 249931596.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-26T00:29:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 650.0,
+      "usd_value": 71123717.0,
+      "from": "unknown wallet",
+      "to": "#Kraken",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T23:57:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 638.0,
+      "usd_value": 69790653.0,
+      "from": "unknown wallet",
+      "to": "#Kraken",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T23:15:00Z",
+      "event": "mint",
+      "asset": "USDC",
+      "amount": 250000000.0,
+      "usd_value": 249926125.0,
+      "from": null,
+      "to": "USDC Treasury",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T23:14:00Z",
+      "event": "mint",
+      "asset": "USDC",
+      "amount": 250000000.0,
+      "usd_value": 249900537.0,
+      "from": null,
+      "to": "USDC Treasury",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T22:03:00Z",
+      "event": "mint",
+      "asset": "USDC",
+      "amount": 250000000.0,
+      "usd_value": 249897250.0,
+      "from": null,
+      "to": "USDC Treasury",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T21:58:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 36165.0,
+      "usd_value": 140535939.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T21:52:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 500.0,
+      "usd_value": 54538577.0,
+      "from": "#Okex",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T21:52:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2385.0,
+      "usd_value": 260226459.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T21:41:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 14063.0,
+      "usd_value": 54625231.0,
+      "from": "#Okex",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T21:11:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2000.0,
+      "usd_value": 218531138.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T21:11:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 493.0,
+      "usd_value": 53890341.0,
+      "from": "unknown wallet",
+      "to": "Galaxy Digital",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T21:10:00Z",
+      "event": "transfer",
+      "asset": "LINK",
+      "amount": 2297942.0,
+      "usd_value": 46836195.0,
+      "from": "unknown wallet",
+      "to": "#Coinbase",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T20:54:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2720.0,
+      "usd_value": 297837546.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T20:47:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 2500.0,
+      "usd_value": 273712147.0,
+      "from": "#Kraken",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T20:15:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 3845.0,
+      "usd_value": 422113872.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T19:15:00Z",
+      "event": "transfer",
+      "asset": "BTC",
+      "amount": 1000.0,
+      "usd_value": 109144649.0,
+      "from": "unknown wallet",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T18:49:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 20852.0,
+      "usd_value": 80588775.0,
+      "from": "#Falconx",
+      "to": "unknown wallet",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T18:37:00Z",
+      "event": "transfer",
+      "asset": "ETH",
+      "amount": 20852.0,
+      "usd_value": 80850768.0,
+      "from": "unknown wallet",
+      "to": "#Falconx",
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T18:10:00Z",
+      "event": "burn",
+      "asset": "USDC",
+      "amount": 75000000.0,
+      "usd_value": 74975775.0,
+      "from": "USDC Treasury",
+      "to": null,
+      "extra": null
+    },
+    {
+      "timestamp": "2025-09-25T17:53:00Z",
+      "event": "transfer",
+      "asset": "SOL",
+      "amount": 295795.0,
+      "usd_value": 58948001.0,
+      "from": "unknown wallet",
+      "to": "#Binance",
+      "extra": null
+    }
+  ]
+}
+
+============================================================
+
