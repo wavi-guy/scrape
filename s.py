@@ -153,25 +153,6 @@ async def scrape_and_save():
                 
                 print(f"Content saved to: {filename}")
                 
-                # Create summary
-                word_count = len(content.split())
-                summary_filename = f"summary_{timestamp}.txt"
-                
-                with open(summary_filename, 'w', encoding='utf-8') as f:
-                    f.write("SCRAPING SUMMARY\n")
-                    f.write(f"Website: {url}\n")
-                    f.write(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                    f.write(f"Characters: {len(content):,}\n")
-                    f.write(f"Words: {word_count:,}\n")
-                    f.write(f"Content file: {filename}\n")
-                    f.write("=" * 40 + "\n\n")
-                    f.write("PREVIEW:\n")
-                    f.write(content[:500])
-                    if len(content) > 500:
-                        f.write("\n...(truncated)")
-                
-                print(f"Summary saved to: {summary_filename}")
-                
         except Exception as e:
             print(f"Error: {e}")
             
